@@ -1,5 +1,4 @@
 mathsman
 ========
 
-Maths Man Android App b? Gado World
-https://www.facebook.com/GadoWorld
+Maths Man Android App bt Gado Wolrd

@@ -1,0 +1,109 @@
+# view AndroidManifest.xml #generated:52
+-keep class com.gadoworld.mathman.CirActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.gadoworld.mathman.CircleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.gadoworld.mathman.CosActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.gadoworld.mathman.DistanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.gadoworld.mathman.FormActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.gadoworld.mathman.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.gadoworld.mathman.MidActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.gadoworld.mathman.SinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.gadoworld.mathman.SlopeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.gadoworld.mathman.SqrActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.gadoworld.mathman.TanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.gadoworld.mathman.ThemeActivity { <init>(...); }
+
+# onClick res/layout/activity_color.xml #generated:7
+-keepclassmembers class * { *** blue_dark(...); }
+
+# onClick res/layout/activity_color.xml #generated:16
+-keepclassmembers class * { *** blue_light(...); }
+
+# onClick res/layout/activity_cir.xml #generated:35
+-keepclassmembers class * { *** cir(...); }
+
+# onClick res/layout/activity_main.xml #generated:91
+-keepclassmembers class * { *** circle(...); }
+
+# onClick res/layout/activity_main.xml #generated:101
+-keepclassmembers class * { *** circum(...); }
+
+# onClick res/layout/activity_cos.xml #generated:35
+# onClick res/layout/activity_main.xml #generated:133
+-keepclassmembers class * { *** cos(...); }
+
+# onClick res/layout/activity_distance.xml #generated:153
+# onClick res/layout/activity_main.xml #generated:58
+-keepclassmembers class * { *** distance(...); }
+
+# onClick res/layout/activity_form.xml #generated:106
+-keepclassmembers class * { *** form(...); }
+
+# onClick res/layout/activity_main.xml #generated:80
+-keepclassmembers class * { *** formula(...); }
+
+# onClick res/layout/activity_color.xml #generated:25
+-keepclassmembers class * { *** green_dark(...); }
+
+# onClick res/layout/activity_color.xml #generated:34
+-keepclassmembers class * { *** green_light(...); }
+
+# onClick res/layout/activity_main.xml #generated:69
+# onClick res/layout/activity_mid.xml #generated:145
+-keepclassmembers class * { *** mid(...); }
+
+# onClick res/layout/activity_color.xml #generated:43
+-keepclassmembers class * { *** orange_dark(...); }
+
+# onClick res/layout/activity_color.xml #generated:52
+-keepclassmembers class * { *** orange_light(...); }
+
+# onClick res/layout/activity_color.xml #generated:79
+-keepclassmembers class * { *** purple(...); }
+
+# onClick res/layout/activity_color.xml #generated:61
+-keepclassmembers class * { *** red_dark(...); }
+
+# onClick res/layout/activity_color.xml #generated:70
+-keepclassmembers class * { *** red_light(...); }
+
+# onClick res/layout/activity_circle.xml #generated:107
+-keepclassmembers class * { *** rel(...); }
+
+# onClick res/layout/activity_main.xml #generated:122
+# onClick res/layout/activity_sin.xml #generated:35
+-keepclassmembers class * { *** sin(...); }
+
+# onClick res/layout/activity_main.xml #generated:47
+# onClick res/layout/activity_slope.xml #generated:146
+-keepclassmembers class * { *** slope(...); }
+
+# onClick res/layout/activity_main.xml #generated:112
+# onClick res/layout/activity_square.xml #generated:35
+-keepclassmembers class * { *** sqr(...); }
+
+# onClick res/layout/activity_main.xml #generated:144
+# onClick res/layout/activity_tan.xml #generated:35
+-keepclassmembers class * { *** tan(...); }
+
