@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<LinearLayout
+        android:id="@+id/layoutActionMain"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/titleColor"
+        android:orientation="horizontal">
+
+		<ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name" />
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:paddingTop="3sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/Button01"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/homeIcon"
+                android:onClick="slope"
+                android:text="@string/title_activity_slope"
+                android:layout_marginBottom="1sp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Button03"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/homeIcon"
+                android:onClick="distance"
+                android:text="@string/title_activity_distance" 
+                android:layout_marginBottom="1sp"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/Button02"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/homeIcon"
+                android:onClick="mid"
+                android:text="@string/title_activity_mid"
+                android:layout_marginBottom="1sp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Button04"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="formula"
+                android:text="@string/formula"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/Button05"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="circle"
+                android:text="@string/circle"
+                android:textSize="20sp" />
+			<Button
+                android:id="@+id/Button06"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="circum"
+                android:text="@string/cir"
+                android:textSize="20sp" />
+
+			<Button
+			    android:id="@+id/Button07"
+			    style="@style/ButtonText"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="1sp"
+			    android:background="?attr/homeIcon"
+			    android:onClick="sqr"
+			    android:text="@string/sqr"
+			    android:textSize="20sp" />
+			<Button
+                android:id="@+id/Button10"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="sin"
+                android:text="@string/sine"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Button09"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="cos"
+                android:text="@string/cosine"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Button08"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="?attr/homeIcon"
+                android:onClick="tan"
+                android:text="@string/tane"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

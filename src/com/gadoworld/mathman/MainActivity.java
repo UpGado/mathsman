@@ -1,0 +1,98 @@
+package com.gadoworld.mathman;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		SharedPreferences prefs = getSharedPreferences("theme",0);
+		switch (prefs.getInt("theme", 0)) {
+		case 0 :setTheme(R.style.AppTheme_Blue_Dark); break; 
+		case 1 :setTheme(R.style.AppTheme_Blue_Light);break; 
+		case 2 :setTheme(R.style.AppTheme_Green_Dark);break; 
+		case 3 :setTheme(R.style.AppTheme_Green_Light); break; 
+		case 4 :setTheme(R.style.AppTheme_Red_Dark);    break; 
+		case 5 :setTheme(R.style.AppTheme_Red_Light);   break; 
+		case 6 :setTheme(R.style.AppTheme_Orange_Dark);break; 
+		case 7 :setTheme(R.style.AppTheme_Orange_Light);break; 
+		case 8 :setTheme(R.style.AppTheme_Purple); break; 
+		}
+		setContentView(R.layout.activity_main);
+		Button bt = (Button) findViewById(R.id.Button10);
+		bt.setOnLongClickListener(new View.OnLongClickListener() {
+			
+			@Override
+			public boolean onLongClick(View arg0) {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			});
+	}
+	public void slope(View view) {
+		Intent intent = new Intent(this, SlopeActivity.class);
+	    startActivity(intent);
+	}
+	public void distance(View view) {
+		Intent intent = new Intent(this, DistanceActivity.class);
+	    startActivity(intent);
+	}
+	public void mid(View view) {
+		Intent intent = new Intent(this, MidActivity.class);
+	    startActivity(intent);
+	}
+	public void formula(View view){
+		Intent intent = new Intent(this,FormActivity.class);
+		startActivity(intent);
+	}
+	public void circle(View view){
+		Intent intent = new Intent(this,CircleActivity.class);
+		startActivity(intent);
+	}
+	public void circum(View view){
+		Intent intent = new Intent(this,CirActivity.class);
+		startActivity(intent);
+	}
+	public void sqr(View view){
+		Intent intent = new Intent(this,SqrActivity.class);
+		startActivity(intent);
+	}
+	public void sin(View view){
+		Intent intent = new Intent(this,SinActivity.class);
+		startActivity(intent);
+	}
+	public void cos(View view){
+		Intent intent = new Intent(this,CosActivity.class);
+		startActivity(intent);
+	}
+	public void tan(View view){
+		Intent intent = new Intent(this,TanActivity.class);
+		startActivity(intent);
+	}
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.menu_theme:   Intent intent = new Intent(this, ThemeActivity.class);
+	    						startActivity(intent);
+	    						finish();
+        	}
+		return super.onOptionsItemSelected(item);
+    }
+	
+	public static boolean Empty(EditText t) {
+		return t.getText().length() == 0;
+	}
+}

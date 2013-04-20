@@ -1,0 +1,253 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.gadoworld.mathman.CirActivity
+com.gadoworld.mathman.CirActivity: CirActivity()
+com.gadoworld.mathman.CirActivity: void cir(android.view.View)
+com.gadoworld.mathman.CircleActivity
+com.gadoworld.mathman.CircleActivity: CircleActivity()
+com.gadoworld.mathman.CircleActivity: void rel(android.view.View)
+com.gadoworld.mathman.CosActivity
+com.gadoworld.mathman.CosActivity: CosActivity()
+com.gadoworld.mathman.CosActivity: void cos(android.view.View)
+com.gadoworld.mathman.DistanceActivity
+com.gadoworld.mathman.DistanceActivity: DistanceActivity()
+com.gadoworld.mathman.DistanceActivity: void distance(android.view.View)
+com.gadoworld.mathman.FormActivity
+com.gadoworld.mathman.FormActivity: FormActivity()
+com.gadoworld.mathman.FormActivity: void form(android.view.View)
+com.gadoworld.mathman.MainActivity
+com.gadoworld.mathman.MainActivity: MainActivity()
+com.gadoworld.mathman.MainActivity: void slope(android.view.View)
+com.gadoworld.mathman.MainActivity: void distance(android.view.View)
+com.gadoworld.mathman.MainActivity: void mid(android.view.View)
+com.gadoworld.mathman.MainActivity: void formula(android.view.View)
+com.gadoworld.mathman.MainActivity: void circle(android.view.View)
+com.gadoworld.mathman.MainActivity: void circum(android.view.View)
+com.gadoworld.mathman.MainActivity: void sqr(android.view.View)
+com.gadoworld.mathman.MainActivity: void sin(android.view.View)
+com.gadoworld.mathman.MainActivity: void cos(android.view.View)
+com.gadoworld.mathman.MainActivity: void tan(android.view.View)
+com.gadoworld.mathman.MidActivity
+com.gadoworld.mathman.MidActivity: MidActivity()
+com.gadoworld.mathman.MidActivity: void mid(android.view.View)
+com.gadoworld.mathman.R$array: int color_array
+com.gadoworld.mathman.R$attr: int homeIcon
+com.gadoworld.mathman.R$attr: int titleColor
+com.gadoworld.mathman.R$color: int holo_blue_dark
+com.gadoworld.mathman.R$color: int holo_blue_light
+com.gadoworld.mathman.R$color: int holo_green_dark
+com.gadoworld.mathman.R$color: int holo_green_light
+com.gadoworld.mathman.R$color: int holo_orange_dark
+com.gadoworld.mathman.R$color: int holo_orange_light
+com.gadoworld.mathman.R$color: int holo_purple
+com.gadoworld.mathman.R$color: int holo_red_dark
+com.gadoworld.mathman.R$color: int holo_red_light
+com.gadoworld.mathman.R$drawable: int btn_blue
+com.gadoworld.mathman.R$drawable: int btn_green
+com.gadoworld.mathman.R$drawable: int btn_orange
+com.gadoworld.mathman.R$drawable: int btn_purple
+com.gadoworld.mathman.R$drawable: int btn_red
+com.gadoworld.mathman.R$drawable: int ic_action_search
+com.gadoworld.mathman.R$drawable: int ic_launcher
+com.gadoworld.mathman.R$id: int Button01
+com.gadoworld.mathman.R$id: int Button02
+com.gadoworld.mathman.R$id: int Button03
+com.gadoworld.mathman.R$id: int Button04
+com.gadoworld.mathman.R$id: int Button05
+com.gadoworld.mathman.R$id: int Button06
+com.gadoworld.mathman.R$id: int Button07
+com.gadoworld.mathman.R$id: int Button08
+com.gadoworld.mathman.R$id: int Button09
+com.gadoworld.mathman.R$id: int Button10
+com.gadoworld.mathman.R$id: int EditTextA
+com.gadoworld.mathman.R$id: int EditTextB
+com.gadoworld.mathman.R$id: int EditTextC
+com.gadoworld.mathman.R$id: int EditTextMN
+com.gadoworld.mathman.R$id: int EditTextR1
+com.gadoworld.mathman.R$id: int EditTextR2
+com.gadoworld.mathman.R$id: int Testy
+com.gadoworld.mathman.R$id: int TextView01
+com.gadoworld.mathman.R$id: int TextView02
+com.gadoworld.mathman.R$id: int TextView03
+com.gadoworld.mathman.R$id: int TextView04
+com.gadoworld.mathman.R$id: int TextView05
+com.gadoworld.mathman.R$id: int TextView06
+com.gadoworld.mathman.R$id: int button1
+com.gadoworld.mathman.R$id: int editDisX1
+com.gadoworld.mathman.R$id: int editDisX2
+com.gadoworld.mathman.R$id: int editDisY1
+com.gadoworld.mathman.R$id: int editDisY2
+com.gadoworld.mathman.R$id: int editMidX1
+com.gadoworld.mathman.R$id: int editMidX2
+com.gadoworld.mathman.R$id: int editMidY1
+com.gadoworld.mathman.R$id: int editMidY2
+com.gadoworld.mathman.R$id: int editSinR
+com.gadoworld.mathman.R$id: int editTextL
+com.gadoworld.mathman.R$id: int editTextR
+com.gadoworld.mathman.R$id: int editX1
+com.gadoworld.mathman.R$id: int editX2
+com.gadoworld.mathman.R$id: int editY1
+com.gadoworld.mathman.R$id: int editY2
+com.gadoworld.mathman.R$id: int imageView1
+com.gadoworld.mathman.R$id: int layoutAction
+com.gadoworld.mathman.R$id: int layoutActionMain
+com.gadoworld.mathman.R$id: int linearLayout1
+com.gadoworld.mathman.R$id: int linearLayout2
+com.gadoworld.mathman.R$id: int linearLayoutTitle
+com.gadoworld.mathman.R$id: int menu_theme
+com.gadoworld.mathman.R$id: int scrollView1
+com.gadoworld.mathman.R$id: int textCirRes
+com.gadoworld.mathman.R$id: int textCireRes
+com.gadoworld.mathman.R$id: int textDisRes
+com.gadoworld.mathman.R$id: int textFormRes
+com.gadoworld.mathman.R$id: int textMidRes
+com.gadoworld.mathman.R$id: int textRes
+com.gadoworld.mathman.R$id: int textSinRes
+com.gadoworld.mathman.R$id: int textView1
+com.gadoworld.mathman.R$id: int textView2
+com.gadoworld.mathman.R$id: int textView3
+com.gadoworld.mathman.R$layout: int activity_cir
+com.gadoworld.mathman.R$layout: int activity_circle
+com.gadoworld.mathman.R$layout: int activity_color
+com.gadoworld.mathman.R$layout: int activity_cos
+com.gadoworld.mathman.R$layout: int activity_distance
+com.gadoworld.mathman.R$layout: int activity_form
+com.gadoworld.mathman.R$layout: int activity_main
+com.gadoworld.mathman.R$layout: int activity_mid
+com.gadoworld.mathman.R$layout: int activity_sin
+com.gadoworld.mathman.R$layout: int activity_slope
+com.gadoworld.mathman.R$layout: int activity_square
+com.gadoworld.mathman.R$layout: int activity_tan
+com.gadoworld.mathman.R$menu: int activity_main
+com.gadoworld.mathman.R$string: int X1
+com.gadoworld.mathman.R$string: int X2
+com.gadoworld.mathman.R$string: int Y1
+com.gadoworld.mathman.R$string: int Y2
+com.gadoworld.mathman.R$string: int a
+com.gadoworld.mathman.R$string: int angle
+com.gadoworld.mathman.R$string: int app_name
+com.gadoworld.mathman.R$string: int b
+com.gadoworld.mathman.R$string: int blue_dark
+com.gadoworld.mathman.R$string: int blue_light
+com.gadoworld.mathman.R$string: int c
+com.gadoworld.mathman.R$string: int cir
+com.gadoworld.mathman.R$string: int circle
+com.gadoworld.mathman.R$string: int cirhelp
+com.gadoworld.mathman.R$string: int comma
+com.gadoworld.mathman.R$string: int cosine
+com.gadoworld.mathman.R$string: int darrow
+com.gadoworld.mathman.R$string: int formula
+com.gadoworld.mathman.R$string: int get_cir
+com.gadoworld.mathman.R$string: int get_cos
+com.gadoworld.mathman.R$string: int get_distance
+com.gadoworld.mathman.R$string: int get_form
+com.gadoworld.mathman.R$string: int get_mid
+com.gadoworld.mathman.R$string: int get_relation
+com.gadoworld.mathman.R$string: int get_sin
+com.gadoworld.mathman.R$string: int get_slope
+com.gadoworld.mathman.R$string: int get_sqr
+com.gadoworld.mathman.R$string: int get_tan
+com.gadoworld.mathman.R$string: int green_dark
+com.gadoworld.mathman.R$string: int green_light
+com.gadoworld.mathman.R$string: int larrow
+com.gadoworld.mathman.R$string: int length
+com.gadoworld.mathman.R$string: int menu_theme
+com.gadoworld.mathman.R$string: int mn
+com.gadoworld.mathman.R$string: int orange_dark
+com.gadoworld.mathman.R$string: int orange_light
+com.gadoworld.mathman.R$string: int point1
+com.gadoworld.mathman.R$string: int point2
+com.gadoworld.mathman.R$string: int purple
+com.gadoworld.mathman.R$string: int r1
+com.gadoworld.mathman.R$string: int r2
+com.gadoworld.mathman.R$string: int raduis
+com.gadoworld.mathman.R$string: int rarrow
+com.gadoworld.mathman.R$string: int red_dark
+com.gadoworld.mathman.R$string: int red_light
+com.gadoworld.mathman.R$string: int set_theme
+com.gadoworld.mathman.R$string: int sine
+com.gadoworld.mathman.R$string: int sqr
+com.gadoworld.mathman.R$string: int tane
+com.gadoworld.mathman.R$string: int title_activity_distance
+com.gadoworld.mathman.R$string: int title_activity_mid
+com.gadoworld.mathman.R$string: int title_activity_slope
+com.gadoworld.mathman.R$string: int title_activity_theme
+com.gadoworld.mathman.R$string: int version
+com.gadoworld.mathman.R$style: int AppBaseTheme
+com.gadoworld.mathman.R$style: int AppTheme_Blue_Dark
+com.gadoworld.mathman.R$style: int AppTheme_Blue_Light
+com.gadoworld.mathman.R$style: int AppTheme_Green_Dark
+com.gadoworld.mathman.R$style: int AppTheme_Green_Light
+com.gadoworld.mathman.R$style: int AppTheme_Orange_Dark
+com.gadoworld.mathman.R$style: int AppTheme_Orange_Light
+com.gadoworld.mathman.R$style: int AppTheme_Purple
+com.gadoworld.mathman.R$style: int AppTheme_Red_Dark
+com.gadoworld.mathman.R$style: int AppTheme_Red_Light
+com.gadoworld.mathman.R$style: int ButtonText
+com.gadoworld.mathman.R$styleable: int[] AppTheme
+com.gadoworld.mathman.R$styleable: int AppTheme_homeIcon
+com.gadoworld.mathman.R$styleable: int AppTheme_titleColor
+com.gadoworld.mathman.SinActivity
+com.gadoworld.mathman.SinActivity: SinActivity()
+com.gadoworld.mathman.SinActivity: void sin(android.view.View)
+com.gadoworld.mathman.SlopeActivity
+com.gadoworld.mathman.SlopeActivity: SlopeActivity()
+com.gadoworld.mathman.SlopeActivity: void slope(android.view.View)
+com.gadoworld.mathman.SqrActivity
+com.gadoworld.mathman.SqrActivity: SqrActivity()
+com.gadoworld.mathman.SqrActivity: void sqr(android.view.View)
+com.gadoworld.mathman.TanActivity
+com.gadoworld.mathman.TanActivity: TanActivity()
+com.gadoworld.mathman.TanActivity: void tan(android.view.View)
+com.gadoworld.mathman.ThemeActivity
+com.gadoworld.mathman.ThemeActivity: ThemeActivity()
+com.gadoworld.mathman.ThemeActivity: void blue_dark(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void blue_light(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void green_dark(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void green_light(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void red_dark(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void red_light(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void orange_dark(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void orange_light(android.view.View)
+com.gadoworld.mathman.ThemeActivity: void purple(android.view.View)

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maths Man</string>
+    <string name="menu_theme">Theme</string>
+    <string name="X1">X<sub><small>1</small></sub></string>
+    <string name="Y1">Y<sub><small>1</small></sub></string>
+    <string name="X2">X<sub><small>2</small></sub></string>
+    <string name="Y2">Y<sub><small>2</small></sub></string>
+    <string name="darrow">) (</string>
+    <string name="rarrow">(</string>
+    <string name="larrow">)</string>
+    <string name="comma">,</string>
+    <string name="title_activity_slope">Slope</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_distance">Distance</string>
+    <string name="get_slope">Get Slope</string>
+    <string name="get_distance">Get Distance</string>
+    <string name="title_activity_mid">Midpoint of line</string>
+    <string name="get_mid">Get Midpoint</string>
+    <string name="point1">Point 1</string>
+    <string name="point2">Point 2</string>
+    <string name="title_activity_theme">Theme Chooser</string>
+    <string name="blue_dark">Blue Dark</string>
+    <string name="blue_light">Blue Light</string>
+    <string name="green_dark">Green Dark</string>
+    <string name="green_light">Green Light</string>
+    <string name="orange_dark">Orange Dark</string>
+    <string name="orange_light">Orange Light</string>
+    <string name="red_dark">Red Dark</string>
+    <string name="red_light">Red Light</string>
+    <string name="purple">Purple</string>
+    <string name="set_theme">Set Theme</string>
+    <string name="formula">Solve Quadratic Equation</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="get_form">Get S.S</string>
+    <string name="version">V2.4 By UpGado</string>
+    <string name="r1">r1</string>
+    <string name="r2">r2</string>
+    <string name="circle">Relation between circles</string>
+    <string name="get_relation">Get Relation</string>
+    <string name="mn">MN</string>
+    <string name="cirhelp">MN is the distance between the two centers</string>
+    <string name="cir">Circumference &amp; Area of circle</string>
+    <string name="raduis">Raduis</string>
+    <string name="get_cir">Get Circumference and Area</string>
+    <string name="sqr">Parameter and Area of Square</string>
+    <string name="length">Length</string>
+    <string name="get_sqr">Get Parameter and Area</string>
+    <string name="sine">Sine<sup>-1</sup></string>
+    <string name="cosine">Cosine<sup>-1</sup></string>
+    <string name="tane">Tane<sup>-1</sup></string>
+    <string name="angle">Angle</string>
+    <string name="get_sin">Get Sine</string>
+    <string name="get_cos">Get Cosine</string>
+    <string name="get_tan">Get Tane</string>
+
+</resources>
