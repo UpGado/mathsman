@@ -22,31 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.gadoworld.mathman.SlopeActivity"
-            android:label="@string/title_activity_slope" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.upgado.textshot.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.gadoworld.mathman.DistanceActivity"
-            android:label="@string/title_activity_distance" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.upgado.textshot.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.gadoworld.mathman.MidActivity"
-            android:label="@string/title_activity_mid" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.upgado.textshot.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.gadoworld.mathman.ThemeActivity"
-            android:label="@string/title_activity_theme" >
-        </activity>
+        <activity android:name="com.gadoworld.mathman.SlopeActivity" ></activity>
+        <activity android:name="com.gadoworld.mathman.DistanceActivity" ></activity>
+        <activity android:name="com.gadoworld.mathman.MidActivity" ></activity>
+        <activity android:name="com.gadoworld.mathman.ThemeActivity"></activity>
         <activity android:name="com.gadoworld.mathman.FormActivity"></activity>
         <activity android:name="com.gadoworld.mathman.CircleActivity"></activity>
         <activity android:name="com.gadoworld.mathman.CirActivity"></activity>
@@ -55,6 +34,8 @@
         <activity android:name="com.gadoworld.mathman.CosActivity"></activity>
         <activity android:name="com.gadoworld.mathman.TanActivity"></activity>
         <activity android:name="xSinActivity"></activity>
+        <activity android:name="xCosActivity"></activity>
+        <activity android:name="xTanActivity"></activity>
     </application>
 
 </manifest>

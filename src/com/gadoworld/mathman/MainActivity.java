@@ -32,6 +32,14 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, xSinActivity.class);
 		startActivity(intent);
 	}
+	public void xCos (View view) {
+		Intent intent = new Intent(this, xCosActivity.class);
+		startActivity(intent);
+	}
+	public void xTan (View view) {
+		Intent intent = new Intent(this, xTanActivity.class);
+		startActivity(intent);
+	}
 	public void slope(View view) {
 		Intent intent = new Intent(this, SlopeActivity.class);
 	    startActivity(intent);

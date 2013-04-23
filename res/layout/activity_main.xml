@@ -152,27 +152,61 @@
 
 			</LinearLayout>
 
-            <Button
-                android:id="@+id/Button09"
-                style="@style/ButtonText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1sp"
-                android:background="?attr/homeIcon"
-                android:onClick="cos"
-                android:text="@string/cosine"
-                android:textSize="20sp" />
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+				<Button
+				    android:layout_weight="1"
+				    android:id="@+id/Button09"
+				    style="@style/ButtonText"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="1sp"
+				    android:background="?attr/homeIcon"
+				    android:onClick="cos"
+				    android:text="@string/cosine"
+				    android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/Button08"
-                style="@style/ButtonText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1sp"
-                android:background="?attr/homeIcon"
-                android:onClick="tan"
-                android:text="@string/tane"
-                android:textSize="20sp" />
+				<Button
+				    android:id="@+id/Button12"
+				    style="@style/ButtonText"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="1sp"
+				    android:layout_weight="3"
+				    android:background="?attr/homeIcon"
+				    android:onClick="xCos"
+				    android:text="@string/neg"
+				    android:textSize="20sp" />
+
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+	            <Button
+	                android:layout_weight="1"
+	                android:id="@+id/Button08"
+	                style="@style/ButtonText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="1sp"
+	                android:background="?attr/homeIcon"
+	                android:onClick="tan"
+	                android:text="@string/tane"
+	                android:textSize="20sp" />
+	            <Button
+	                android:layout_weight="3"
+	                style="@style/ButtonText"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="1sp"
+	                android:background="?attr/homeIcon"
+	                android:onClick="xTan"
+	                android:text="@string/neg"
+	                android:textSize="20sp" />
+            </LinearLayout>
         </LinearLayout>
 
     </ScrollView>
