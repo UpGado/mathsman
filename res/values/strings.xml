@@ -28,6 +28,7 @@
     </style>
 
     <string name="title_activity_distance">Distance</string>
+    <string name="neg"><sup>-1</sup></string>
     <string name="get_slope">Get Slope</string>
     <string name="get_distance">Get Distance</string>
     <string name="title_activity_mid">Midpoint of line</string>
@@ -63,12 +64,13 @@
     <string name="sqr">Parameter and Area of Square</string>
     <string name="length">Length</string>
     <string name="get_sqr">Get Parameter and Area</string>
-    <string name="sine">Sine<sup>-1</sup></string>
-    <string name="cosine">Cosine<sup>-1</sup></string>
-    <string name="tane">Tane<sup>-1</sup></string>
+    <string name="sine">Sine</string>
+    <string name="cosine">Cosine</string>
+    <string name="tane">Tane</string>
     <string name="angle">Angle</string>
     <string name="get_sin">Get Sine</string>
     <string name="get_cos">Get Cosine</string>
     <string name="get_tan">Get Tane</string>
+    <string name="getangle">Get Angle</string>
 
 </resources>

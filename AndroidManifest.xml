@@ -54,6 +54,7 @@
         <activity android:name="com.gadoworld.mathman.SinActivity"></activity>
         <activity android:name="com.gadoworld.mathman.CosActivity"></activity>
         <activity android:name="com.gadoworld.mathman.TanActivity"></activity>
+        <activity android:name="xSinActivity"></activity>
     </application>
 
 </manifest>

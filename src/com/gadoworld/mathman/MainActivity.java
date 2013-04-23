@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends Activity {
@@ -27,15 +26,11 @@ public class MainActivity extends Activity {
 		case 8 :setTheme(R.style.AppTheme_Purple); break; 
 		}
 		setContentView(R.layout.activity_main);
-		Button bt = (Button) findViewById(R.id.Button10);
-		bt.setOnLongClickListener(new View.OnLongClickListener() {
-			
-			@Override
-			public boolean onLongClick(View arg0) {
-				// TODO Auto-generated method stub
-				return false;
-			}
-			});
+	}
+	
+	public void xSin (View view) {
+		Intent intent = new Intent(this, xSinActivity.class);
+		startActivity(intent);
 	}
 	public void slope(View view) {
 		Intent intent = new Intent(this, SlopeActivity.class);
