@@ -3,4 +3,5 @@
         android:title="@string/menu_theme"
         android:orderInCategory="100"
         android:showAsAction="never" />
+    <item android:id="@+id/itemAbout" android:title="@string/about"></item>
 </menu>

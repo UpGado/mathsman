@@ -51,7 +51,6 @@
     <string name="b">b</string>
     <string name="c">c</string>
     <string name="get_form">Get S.S</string>
-    <string name="version">V2.4 By UpGado</string>
     <string name="r1">r1</string>
     <string name="r2">r2</string>
     <string name="circle">Relation between circles</string>
@@ -72,5 +71,10 @@
     <string name="get_cos">Get Cosine</string>
     <string name="get_tan">Get Tane</string>
     <string name="getangle">Get Angle</string>
+    <string name="arc">Arc Length</string>
+    <string name="getarc">Get Arc Length</string>
+    <string name="measure">Measure</string>
+    <string name="about">About Us</string>
+    <string name="ce">Current Color</string>
 
 </resources>

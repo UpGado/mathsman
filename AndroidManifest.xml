@@ -22,20 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gadoworld.mathman.SlopeActivity" ></activity>
-        <activity android:name="com.gadoworld.mathman.DistanceActivity" ></activity>
-        <activity android:name="com.gadoworld.mathman.MidActivity" ></activity>
-        <activity android:name="com.gadoworld.mathman.ThemeActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.FormActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.CircleActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.CirActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.SqrActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.SinActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.CosActivity"></activity>
-        <activity android:name="com.gadoworld.mathman.TanActivity"></activity>
+        <activity android:name="SlopeActivity" ></activity>
+        <activity android:name="DistanceActivity" ></activity>
+        <activity android:name="MidActivity" ></activity>
+        <activity android:name="ThemeActivity"></activity>
+        <activity android:name="FormActivity"></activity>
+        <activity android:name="CircleActivity"></activity>
+        <activity android:name="CirActivity"></activity>
+        <activity android:name="SqrActivity"></activity>
+        <activity android:name="SinActivity"></activity>
+        <activity android:name="CosActivity"></activity>
+        <activity android:name="TanActivity"></activity>
         <activity android:name="xSinActivity"></activity>
         <activity android:name="xCosActivity"></activity>
         <activity android:name="xTanActivity"></activity>
+        <activity android:name="ArcActivity"></activity>
+        <activity android:name="AboutActivity"></activity>
     </application>
 
 </manifest>

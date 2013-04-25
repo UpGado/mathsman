@@ -14,6 +14,36 @@ public class ThemeActivity extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		SharedPreferences prefs = getSharedPreferences("theme", 0);
+		switch (prefs.getInt("theme", 0)) {
+		case 0:
+			setTheme(R.style.AppTheme_Blue_Dark);
+			break;
+		case 1:
+			setTheme(R.style.AppTheme_Blue_Light);
+			break;
+		case 2:
+			setTheme(R.style.AppTheme_Green_Dark);
+			break;
+		case 3:
+			setTheme(R.style.AppTheme_Green_Light);
+			break;
+		case 4:
+			setTheme(R.style.AppTheme_Red_Dark);
+			break;
+		case 5:
+			setTheme(R.style.AppTheme_Red_Light);
+			break;
+		case 6:
+			setTheme(R.style.AppTheme_Orange_Dark);
+			break;
+		case 7:
+			setTheme(R.style.AppTheme_Orange_Light);
+			break;
+		case 8:
+			setTheme(R.style.AppTheme_Purple);
+			break;
+		}
 		setContentView(R.layout.activity_color);
 		pref = getSharedPreferences("theme", 0);
 		editor = pref.edit(); 

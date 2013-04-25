@@ -28,6 +28,11 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 	
+	public void arc (View view) {
+		Intent intent = new Intent(this, ArcActivity.class);
+		startActivity(intent);
+	}
+	
 	public void xSin (View view) {
 		Intent intent = new Intent(this, xSinActivity.class);
 		startActivity(intent);
@@ -90,7 +95,9 @@ public class MainActivity extends Activity {
 		switch (item.getItemId()) {
 		case R.id.menu_theme:   Intent intent = new Intent(this, ThemeActivity.class);
 	    						startActivity(intent);
-	    						finish();
+	    						finish(); break;
+		case R.id.itemAbout: 	Intent inten = new Intent(this, AboutActivity.class);
+								startActivity(inten); break;
         	}
 		return super.onOptionsItemSelected(item);
     }

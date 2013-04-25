@@ -120,6 +120,16 @@
 			    android:onClick="sqr"
 			    android:text="@string/sqr"
 			    android:textSize="20sp" />
+			
+			<Button
+			    style="@style/ButtonText"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="1sp"
+			    android:background="?attr/homeIcon"
+			    android:onClick="arc"
+			    android:text="@string/arc"
+			    android:textSize="20sp" />
 
 			<LinearLayout
 			    android:layout_width="match_parent"
