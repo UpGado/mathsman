@@ -64,6 +64,7 @@ public class GraphActivity extends Activity {
     mCurrentRenderer = (XYSeriesRenderer) savedState.getSerializable("current_renderer");
   }
 
+  
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -116,7 +117,7 @@ public class GraphActivity extends Activity {
     mRenderer.setXAxisBold(true);
     mRenderer.setYAxisBold(true);
     mRenderer.setZoomButtonsVisible(true);
-    mRenderer.setZoomEnabled(false);
+    mRenderer.setZoomEnabled(true);
   }
 
   @Override
@@ -124,10 +125,16 @@ public class GraphActivity extends Activity {
     super.onResume();
     if (mChartView == null) {
       LinearLayout layout = (LinearLayout) findViewById(R.id.chart);
+      layout.setVisibility(View.INVISIBLE);
       mChartView = ChartFactory.getLineChartView(this, mDataset, mRenderer);
       // enable the chart click events
       mRenderer.setClickEnabled(true);
       mRenderer.setSelectableBuffer(10);
+      mChartView.setOnClickListener(new View.OnClickListener() {
+          public void onClick(View v) {
+            
+          }
+        });
       layout.addView(mChartView, new LayoutParams(LayoutParams.MATCH_PARENT,
           LayoutParams.MATCH_PARENT));
     } else {
@@ -142,6 +149,7 @@ public class GraphActivity extends Activity {
 	        }
 	      });
 	  mRenderer.setZoomEnabled(true);
+	  mRenderer.setZoomRate(mRenderer.getZoomRate() + 2);
 	  String seriesTitle = "Series " + (mDataset.getSeriesCount() + 1);
       // create a new series of data
       XYSeries series = new XYSeries(seriesTitle);
@@ -168,5 +176,7 @@ public class GraphActivity extends Activity {
       mChartView.repaint();
       mCurrentSeries.add(x2, y2);
       mChartView.repaint();
+      LinearLayout layout = (LinearLayout) findViewById(R.id.chart);
+      layout.setVisibility(View.VISIBLE);
   }
 }
