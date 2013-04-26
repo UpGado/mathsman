@@ -75,7 +75,4 @@ EditText editA;
 			textRes.setText(Html.fromHtml("<p> Circumference =" + (2*(Math.PI)* Double.parseDouble(editA.getText().toString()))+ "</p> <p> Area =" + ((Math.PI) * Double.parseDouble(editA.getText().toString())) * Double.parseDouble(editA.getText().toString())));
 			}
 		}
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	}

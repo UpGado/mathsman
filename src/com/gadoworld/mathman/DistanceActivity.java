@@ -74,7 +74,4 @@ public class DistanceActivity extends Activity {
 			}
 		}
 	}
-	public boolean Empty(String s) {
-		return s == "";
-	}
 }

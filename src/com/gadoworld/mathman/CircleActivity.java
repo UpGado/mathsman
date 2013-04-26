@@ -98,7 +98,4 @@ public class CircleActivity extends Activity {
 			}
 			}
 		}
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	}

@@ -78,7 +78,4 @@ import android.widget.TextView.OnEditorActionListener;
 	private double format(double value) {
         return (double)Math.round(value * 1000000) / 1000000; //you can change this to round up the value(for two position use 100...)
     }
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	}

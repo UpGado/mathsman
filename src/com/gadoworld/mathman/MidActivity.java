@@ -53,7 +53,7 @@ public void mid(View view) {
 	EditText editY1 = (EditText) findViewById(R.id.editMidY1);
 	EditText editX2 = (EditText) findViewById(R.id.editMidX2);
 	EditText editY2 = (EditText) findViewById(R.id.editMidY2);
-	if (!Empty(editX1.getText().toString()) && !Empty(editY1.getText().toString()) && !Empty(editX2.getText().toString()) && !Empty(editY2.getText().toString()) ) {
+	if (!MainActivity.Empty(editX1) && !MainActivity.Empty(editY1) && !MainActivity.Empty(editX2) && !MainActivity.Empty(editY2) ) {
 		double X1 = Double.parseDouble(editX1.getText().toString());
 		double Y1 = Double.parseDouble(editY1.getText().toString());
 		double X2 = Double.parseDouble(editX2.getText().toString());
@@ -81,8 +81,5 @@ public void mid(View view) {
 			}
 		}
 	}
-}
-public boolean Empty(String s) {
-	return s == "";
 }
 }

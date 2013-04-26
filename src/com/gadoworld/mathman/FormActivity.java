@@ -92,7 +92,4 @@ public class FormActivity extends Activity {
          }
 	}
 }
-	public boolean Empty(String s) {
-		return s == "";
-	}
 }

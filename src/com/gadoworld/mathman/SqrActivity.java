@@ -70,7 +70,7 @@ EditText editA;
 	@SuppressLint("NewApi")
 	public void sqr(View view) {
 		EditText editA = (EditText) findViewById(R.id.editTextL);
-		if (!Empty(editA.getText().toString())) {
+		if (!MainActivity.Empty(editA)) {
 			Double l = Double.parseDouble(editA.getText().toString());
 			Double parameter = (l*4);
 			Double area = (l*l);
@@ -78,7 +78,4 @@ EditText editA;
 			textRes.setText(Html.fromHtml("<p> Parameter =" + parameter + "</p> <p> Area =" + area));
 			}
 		}
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	}

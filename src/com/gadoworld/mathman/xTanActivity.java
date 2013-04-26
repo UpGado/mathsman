@@ -67,13 +67,10 @@ EditText editA;
 
 	public void sin(View view) {
 		EditText editA = (EditText) findViewById(R.id.editSinR);
-		if (!Empty(editA.getText().toString())) {
+		if (!MainActivity.Empty(editA)) {
 			TextView textRes = (TextView) findViewById(R.id.textSinRes);
 			textRes.setText(String.valueOf(format(Math.toDegrees(Math.atan(Double.parseDouble((editA.getText().toString()))))))); }
 		}
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	
 	private double format(double value) {
         return (double)Math.round(value * 1000000) / 1000000; //you can change this to round up the value(for two position use 100...)

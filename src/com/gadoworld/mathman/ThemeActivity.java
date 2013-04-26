@@ -1,5 +1,6 @@
 package com.gadoworld.mathman;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,6 +12,7 @@ public class ThemeActivity extends Activity{
 	public SharedPreferences pref;
 	public SharedPreferences.Editor editor;
 
+	@SuppressLint("CommitPrefEdits")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

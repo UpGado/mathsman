@@ -70,7 +70,7 @@ EditText editA;
 	@SuppressLint("NewApi")
 	public void tan(View view) {
 		EditText editA = (EditText) findViewById(R.id.editSinR);
-		if (!Empty(editA.getText().toString())) {
+		if (!MainActivity.Empty(editA)) {
 			TextView textRes = (TextView) findViewById(R.id.textCosRes);
 			textRes.setText(Html.fromHtml("<p> Tan(" + Double.parseDouble(editA.getText().toString())+ ") = " + (format(Math.tan(Math.toRadians(Double.parseDouble(editA.getText().toString()))))+ "</p>")));
 		}
@@ -78,7 +78,4 @@ EditText editA;
 	private double format(double value) {
         return (double)Math.round(value * 1000000) / 1000000; //you can change this to round up the value(for two position use 100...)
     }
-	public boolean Empty(String s) {
-		return s == "";
-	}
 	}

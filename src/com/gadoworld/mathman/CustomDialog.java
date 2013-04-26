@@ -1,11 +1,17 @@
 package com.gadoworld.mathman;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.TextView.OnEditorActionListener;
 
 public class CustomDialog extends Dialog implements
 		android.view.View.OnClickListener {
@@ -29,6 +35,21 @@ public class CustomDialog extends Dialog implements
 		no = (Button) findViewById(R.id.btn_no);
 		yes.setOnClickListener(this);
 		no.setOnClickListener(this);
+		final EditText SearchEditText =(EditText)findViewById(R.id.editY2); 
+		SearchEditText.setOnEditorActionListener(new OnEditorActionListener(){  
+			@Override
+			public boolean onEditorAction(TextView arg0, int arg1, KeyEvent arg2) {
+				if(arg1 == EditorInfo.IME_ACTION_GO)  
+		        { 
+					InputMethodManager imm = (InputMethodManager)c.getSystemService(
+						      Context.INPUT_METHOD_SERVICE);
+						imm.hideSoftInputFromWindow(SearchEditText.getWindowToken(), 0);
+		           	onClick(yes);
+		        }
+				return false;
+			} 
+
+		}); 
 
 	}
 
@@ -60,4 +81,5 @@ public class CustomDialog extends Dialog implements
 		}
 		dismiss();
 	}
+	
 }
