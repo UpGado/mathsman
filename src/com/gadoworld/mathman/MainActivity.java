@@ -85,6 +85,10 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this,TanActivity.class);
 		startActivity(intent);
 	}
+	public void graph(View view){
+		Intent intent = new Intent(this,GraphActivity.class);
+		startActivity(intent);
+	}
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);

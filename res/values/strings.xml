@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+<string name="add_values">Add values to the chart</string>    
+        <string name="x">X</string>    
+        <string name="y">Y</string>
+        <string name="add">Add</string>
+        <string name="new_series">New Line Segment</string>
+        
     <string name="app_name">Maths Man</string>
     <string name="menu_theme">Theme</string>
     <string name="X1">X<sub><small>1</small></sub></string>
@@ -76,5 +81,7 @@
     <string name="measure">Measure</string>
     <string name="about">About Us</string>
     <string name="ce">Current Color</string>
+    <string name="graph">Graph</string>
+    <string name="enter_two_points">Enter Two Points</string>
 
 </resources>

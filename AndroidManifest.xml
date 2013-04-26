@@ -38,6 +38,7 @@
         <activity android:name="xTanActivity"></activity>
         <activity android:name="ArcActivity"></activity>
         <activity android:name="AboutActivity"></activity>
+        <activity android:name="GraphActivity"></activity>
     </application>
 
 </manifest>

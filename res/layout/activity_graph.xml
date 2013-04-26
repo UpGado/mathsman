@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutActionMain"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/titleColor"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/graph"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/chart" android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1">
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/new_series"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_series"
+            android:onClick="addSegment" />
+
+    </LinearLayout>
+
+</LinearLayout>
