@@ -27,7 +27,7 @@
             android:paddingBottom="0dp"
             android:paddingLeft="5dp"
             android:paddingTop="5dp"
-            android:text="@string/cosine1"
+            android:text="@string/sine"
             android:textColor="@android:color/white"
             android:textSize="19sp" />
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:onClick="sin"
-        android:text="@string/getangle" />
+        android:text="@string/get_sin" />
 
     <TextView
         android:id="@+id/textView2"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/layoutAction"
         android:layout_centerHorizontal="true"
-        android:text="@string/cosine"
+        android:text="@string/angle"
         android:textSize="22sp" />
 
     <EditText

@@ -745,43 +745,70 @@ android.support.v4.widget.EdgeEffectCompatIcs -> android.support.v4.d.e:
     boolean onPull(java.lang.Object,float) -> a
     boolean onRelease(java.lang.Object) -> c
     boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+com.gadoworld.mathman.AboutActivity -> com.gadoworld.mathman.AboutActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.gadoworld.mathman.ArcActivity -> com.gadoworld.mathman.ArcActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void sin(android.view.View) -> sin
+    double format(double) -> a
+com.gadoworld.mathman.ArcActivity$1 -> com.gadoworld.mathman.a:
+    com.gadoworld.mathman.ArcActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.CirActivity -> com.gadoworld.mathman.CirActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void cir(android.view.View) -> cir
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.CirActivity$1 -> com.gadoworld.mathman.a:
+com.gadoworld.mathman.CirActivity$1 -> com.gadoworld.mathman.b:
     com.gadoworld.mathman.CirActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.CircleActivity -> com.gadoworld.mathman.CircleActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void rel(android.view.View) -> rel
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.CircleActivity$1 -> com.gadoworld.mathman.b:
+com.gadoworld.mathman.CircleActivity$1 -> com.gadoworld.mathman.c:
     com.gadoworld.mathman.CircleActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.CosActivity -> com.gadoworld.mathman.CosActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void cos(android.view.View) -> cos
     double format(double) -> a
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.CosActivity$1 -> com.gadoworld.mathman.c:
+com.gadoworld.mathman.CosActivity$1 -> com.gadoworld.mathman.d:
     com.gadoworld.mathman.CosActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.gadoworld.mathman.CustomDialog -> com.gadoworld.mathman.e:
+    com.gadoworld.mathman.GraphActivity c -> a
+    android.widget.Button yes -> b
+    android.widget.Button no -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+com.gadoworld.mathman.CustomDialog$1 -> com.gadoworld.mathman.f:
+    com.gadoworld.mathman.CustomDialog this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.gadoworld.mathman.Distance3DActivity -> com.gadoworld.mathman.Distance3DActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void distance(android.view.View) -> distance
+com.gadoworld.mathman.Distance3DActivity$1 -> com.gadoworld.mathman.g:
+    com.gadoworld.mathman.Distance3DActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.DistanceActivity -> com.gadoworld.mathman.DistanceActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void distance(android.view.View) -> distance
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.DistanceActivity$1 -> com.gadoworld.mathman.d:
+com.gadoworld.mathman.DistanceActivity$1 -> com.gadoworld.mathman.h:
     com.gadoworld.mathman.DistanceActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.FormActivity -> com.gadoworld.mathman.FormActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void form(android.view.View) -> form
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.FormActivity$1 -> com.gadoworld.mathman.e:
+com.gadoworld.mathman.FormActivity$1 -> com.gadoworld.mathman.i:
     com.gadoworld.mathman.FormActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
-com.gadoworld.mathman.Fraction -> com.gadoworld.mathman.f:
+com.gadoworld.mathman.Fraction -> com.gadoworld.mathman.j:
     double numerator_ -> a
     double denominator_ -> b
     android.text.Spanned n() -> a
@@ -790,8 +817,31 @@ com.gadoworld.mathman.Fraction -> com.gadoworld.mathman.f:
     double denominator() -> c
     java.lang.Object clone() -> clone
     double gcd(double,double) -> a
+com.gadoworld.mathman.GraphActivity -> com.gadoworld.mathman.GraphActivity:
+    org.achartengine.model.XYMultipleSeriesDataset mDataset -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer mRenderer -> b
+    org.achartengine.model.XYSeries mCurrentSeries -> c
+    org.achartengine.renderer.XYSeriesRenderer mCurrentRenderer -> d
+    org.achartengine.GraphicalView mChartView -> e
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void addSegment(android.view.View) -> addSegment
+    void add(java.lang.Double,java.lang.Double,java.lang.Double,java.lang.Double) -> a
+com.gadoworld.mathman.GraphActivity$1 -> com.gadoworld.mathman.k:
+    com.gadoworld.mathman.GraphActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.gadoworld.mathman.GraphActivity$2 -> com.gadoworld.mathman.l:
+    com.gadoworld.mathman.GraphActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
 com.gadoworld.mathman.MainActivity -> com.gadoworld.mathman.MainActivity:
     void onCreate(android.os.Bundle) -> onCreate
+    void arc(android.view.View) -> arc
+    void distance3d(android.view.View) -> distance3d
+    void xSin(android.view.View) -> xSin
+    void xCos(android.view.View) -> xCos
+    void xTan(android.view.View) -> xTan
     void slope(android.view.View) -> slope
     void distance(android.view.View) -> distance
     void mid(android.view.View) -> mid
@@ -802,44 +852,46 @@ com.gadoworld.mathman.MainActivity -> com.gadoworld.mathman.MainActivity:
     void sin(android.view.View) -> sin
     void cos(android.view.View) -> cos
     void tan(android.view.View) -> tan
+    void graph(android.view.View) -> graph
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean Empty(android.widget.EditText) -> a
 com.gadoworld.mathman.MidActivity -> com.gadoworld.mathman.MidActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void mid(android.view.View) -> mid
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.MidActivity$1 -> com.gadoworld.mathman.g:
+com.gadoworld.mathman.MidActivity$1 -> com.gadoworld.mathman.m:
     com.gadoworld.mathman.MidActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.SinActivity -> com.gadoworld.mathman.SinActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void sin(android.view.View) -> sin
     double format(double) -> a
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.SinActivity$1 -> com.gadoworld.mathman.h:
+com.gadoworld.mathman.SinActivity$1 -> com.gadoworld.mathman.n:
     com.gadoworld.mathman.SinActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.SlopeActivity -> com.gadoworld.mathman.SlopeActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void slope(android.view.View) -> slope
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.SlopeActivity$1 -> com.gadoworld.mathman.i:
+com.gadoworld.mathman.SlopeActivity$1 -> com.gadoworld.mathman.o:
     com.gadoworld.mathman.SlopeActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.SqrActivity -> com.gadoworld.mathman.SqrActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void sqr(android.view.View) -> sqr
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.SqrActivity$1 -> com.gadoworld.mathman.j:
+com.gadoworld.mathman.SqrActivity$1 -> com.gadoworld.mathman.p:
     com.gadoworld.mathman.SqrActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.TanActivity -> com.gadoworld.mathman.TanActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void tan(android.view.View) -> tan
     double format(double) -> a
-    boolean Empty(java.lang.String) -> a
-com.gadoworld.mathman.TanActivity$1 -> com.gadoworld.mathman.k:
+com.gadoworld.mathman.TanActivity$1 -> com.gadoworld.mathman.q:
     com.gadoworld.mathman.TanActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
     boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
 com.gadoworld.mathman.ThemeActivity -> com.gadoworld.mathman.ThemeActivity:
     android.content.SharedPreferences pref -> a
@@ -856,3 +908,500 @@ com.gadoworld.mathman.ThemeActivity -> com.gadoworld.mathman.ThemeActivity:
     void purple(android.view.View) -> purple
     void set() -> a
     void onBackPressed() -> onBackPressed
+com.gadoworld.mathman.xCosActivity -> com.gadoworld.mathman.xCosActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void sin(android.view.View) -> sin
+    double format(double) -> a
+com.gadoworld.mathman.xCosActivity$1 -> com.gadoworld.mathman.r:
+    com.gadoworld.mathman.xCosActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.gadoworld.mathman.xSinActivity -> com.gadoworld.mathman.xSinActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void sin(android.view.View) -> sin
+    double format(double) -> a
+com.gadoworld.mathman.xSinActivity$1 -> com.gadoworld.mathman.s:
+    com.gadoworld.mathman.xSinActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.gadoworld.mathman.xTanActivity -> com.gadoworld.mathman.xTanActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void sin(android.view.View) -> sin
+    double format(double) -> a
+com.gadoworld.mathman.xTanActivity$1 -> com.gadoworld.mathman.t:
+    com.gadoworld.mathman.xTanActivity this$0 -> a
+    android.widget.EditText val$SearchEditText -> b
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+org.achartengine.ChartFactory -> a.a.a:
+    org.achartengine.GraphicalView getLineChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer) -> a
+    void checkParameters(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer) -> a
+org.achartengine.GraphicalView -> a.a.b:
+    org.achartengine.chart.AbstractChart mChart -> a
+    org.achartengine.renderer.DefaultRenderer mRenderer -> b
+    android.graphics.Rect mRect -> c
+    android.os.Handler mHandler -> d
+    android.graphics.RectF mZoomR -> e
+    android.graphics.Bitmap zoomInImage -> f
+    android.graphics.Bitmap zoomOutImage -> g
+    android.graphics.Bitmap fitZoomImage -> h
+    int zoomSize -> i
+    int ZOOM_BUTTONS_COLOR -> j
+    org.achartengine.tools.Zoom mZoomIn -> k
+    org.achartengine.tools.Zoom mZoomOut -> l
+    org.achartengine.tools.FitZoom mFitZoom -> m
+    android.graphics.Paint mPaint -> n
+    org.achartengine.ITouchHandler mTouchHandler -> o
+    float oldX -> p
+    float oldY -> q
+    org.achartengine.model.SeriesSelection getCurrentSeriesAndPoint() -> getCurrentSeriesAndPoint
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void setZoomRate(float) -> setZoomRate
+    void zoomIn() -> a
+    void zoomOut() -> b
+    void zoomReset() -> c
+    android.graphics.RectF getZoomRectangle() -> getZoomRectangle
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void repaint() -> d
+org.achartengine.GraphicalView$1 -> a.a.c:
+    org.achartengine.GraphicalView this$0 -> a
+    void run() -> run
+org.achartengine.ITouchHandler -> a.a.d:
+    boolean handleTouch(android.view.MotionEvent) -> a
+org.achartengine.TouchHandler -> a.a.e:
+    org.achartengine.renderer.DefaultRenderer mRenderer -> a
+    float oldX -> b
+    float oldY -> c
+    float oldX2 -> d
+    float oldY2 -> e
+    android.graphics.RectF zoomR -> f
+    org.achartengine.tools.Pan mPan -> g
+    org.achartengine.tools.Zoom mPinchZoom -> h
+    org.achartengine.GraphicalView graphicalView -> i
+    boolean handleTouch(android.view.MotionEvent) -> a
+    void applyZoom(float,int) -> a
+org.achartengine.TouchHandlerOld -> a.a.f:
+    org.achartengine.renderer.DefaultRenderer mRenderer -> a
+    float oldX -> b
+    float oldY -> c
+    android.graphics.RectF zoomR -> d
+    org.achartengine.tools.Pan mPan -> e
+    org.achartengine.GraphicalView graphicalView -> f
+    boolean handleTouch(android.view.MotionEvent) -> a
+org.achartengine.chart.AbstractChart -> a.a.a.a:
+    void draw(android.graphics.Canvas,int,int,int,int,android.graphics.Paint) -> a
+    void drawBackground(org.achartengine.renderer.DefaultRenderer,android.graphics.Canvas,int,int,int,int,android.graphics.Paint,boolean,int) -> a
+    int drawLegend(android.graphics.Canvas,org.achartengine.renderer.DefaultRenderer,java.lang.String[],int,int,int,int,int,int,android.graphics.Paint,boolean) -> a
+    void drawString(android.graphics.Canvas,java.lang.String,float,float,android.graphics.Paint) -> a
+    boolean getExceed(float,org.achartengine.renderer.DefaultRenderer,int,int) -> a
+    boolean isVertical(org.achartengine.renderer.DefaultRenderer) -> a
+    java.lang.String getLabel(double) -> a
+    float[] calculateDrawPoints(float,float,float,float,int,int) -> a
+    void drawPath(android.graphics.Canvas,float[],android.graphics.Paint,boolean) -> a
+    int getLegendShapeWidth(int) -> a
+    void drawLegendShape(android.graphics.Canvas,org.achartengine.renderer.SimpleSeriesRenderer,float,float,int,android.graphics.Paint) -> a
+    int getLegendSize(org.achartengine.renderer.DefaultRenderer,int,float) -> a
+    boolean isNullValue(double) -> b
+    org.achartengine.model.SeriesSelection getSeriesAndPointForScreenCoordinate(org.achartengine.model.Point) -> a
+org.achartengine.chart.ClickableArea -> a.a.a.b:
+    android.graphics.RectF rect -> a
+    double x -> b
+    double y -> c
+    android.graphics.RectF getRect() -> a
+    double getX() -> b
+    double getY() -> c
+org.achartengine.chart.LineChart -> a.a.a.c:
+    org.achartengine.chart.ScatterChart pointsChart -> c
+    void drawSeries(android.graphics.Canvas,android.graphics.Paint,float[],org.achartengine.renderer.SimpleSeriesRenderer,float,int,int) -> a
+    org.achartengine.chart.ClickableArea[] clickableAreasForPoints(float[],double[],float,int,int) -> a
+    int getLegendShapeWidth(int) -> a
+    void drawLegendShape(android.graphics.Canvas,org.achartengine.renderer.SimpleSeriesRenderer,float,float,int,android.graphics.Paint) -> a
+    boolean isRenderPoints(org.achartengine.renderer.SimpleSeriesRenderer) -> a
+    org.achartengine.chart.ScatterChart getPointsChart() -> a
+org.achartengine.chart.PointStyle -> a.a.a.d:
+    org.achartengine.chart.PointStyle X -> a
+    org.achartengine.chart.PointStyle CIRCLE -> b
+    org.achartengine.chart.PointStyle TRIANGLE -> c
+    org.achartengine.chart.PointStyle SQUARE -> d
+    org.achartengine.chart.PointStyle DIAMOND -> e
+    org.achartengine.chart.PointStyle POINT -> f
+    java.lang.String mName -> g
+    org.achartengine.chart.PointStyle[] ENUM$VALUES -> h
+    java.lang.String getName() -> a
+    java.lang.String toString() -> toString
+    org.achartengine.chart.PointStyle[] values() -> values
+    org.achartengine.chart.PointStyle valueOf(java.lang.String) -> valueOf
+org.achartengine.chart.RoundChart -> a.a.a.e:
+    org.achartengine.renderer.DefaultRenderer mRenderer -> a
+    int mCenterX -> b
+    int mCenterY -> c
+    int getLegendShapeWidth(int) -> a
+    void drawLegendShape(android.graphics.Canvas,org.achartengine.renderer.SimpleSeriesRenderer,float,float,int,android.graphics.Paint) -> a
+    org.achartengine.renderer.DefaultRenderer getRenderer() -> a
+    int getCenterX() -> b
+    int getCenterY() -> c
+    void setCenterX(int) -> b
+    void setCenterY(int) -> c
+org.achartengine.chart.ScatterChart -> a.a.a.f:
+    float size -> c
+    int[] $SWITCH_TABLE$org$achartengine$chart$PointStyle -> d
+    void drawSeries(android.graphics.Canvas,android.graphics.Paint,float[],org.achartengine.renderer.SimpleSeriesRenderer,float,int,int) -> a
+    org.achartengine.chart.ClickableArea[] clickableAreasForPoints(float[],double[],float,int,int) -> a
+    int getLegendShapeWidth(int) -> a
+    void drawLegendShape(android.graphics.Canvas,org.achartengine.renderer.SimpleSeriesRenderer,float,float,int,android.graphics.Paint) -> a
+    void drawX(android.graphics.Canvas,android.graphics.Paint,float,float) -> a
+    void drawCircle(android.graphics.Canvas,android.graphics.Paint,float,float) -> b
+    void drawTriangle(android.graphics.Canvas,android.graphics.Paint,float[],float,float) -> a
+    void drawSquare(android.graphics.Canvas,android.graphics.Paint,float,float) -> c
+    void drawDiamond(android.graphics.Canvas,android.graphics.Paint,float[],float,float) -> b
+    int[] $SWITCH_TABLE$org$achartengine$chart$PointStyle() -> b
+org.achartengine.chart.XYChart -> a.a.a.g:
+    org.achartengine.model.XYMultipleSeriesDataset mDataset -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer mRenderer -> b
+    float mScale -> c
+    float mTranslate -> d
+    org.achartengine.model.Point mCenter -> e
+    android.graphics.Rect mScreenR -> f
+    java.util.Map mCalcRange -> g
+    java.util.Map clickableAreas -> h
+    void draw(android.graphics.Canvas,int,int,int,int,android.graphics.Paint) -> a
+    java.util.List getXLabels(double,double,int) -> a
+    java.util.Map getYLabels(double[],double[],int) -> a
+    java.util.List getValidLabels(java.util.List) -> a
+    void drawSeries(org.achartengine.model.XYSeries,android.graphics.Canvas,android.graphics.Paint,java.util.List,org.achartengine.renderer.SimpleSeriesRenderer,float,int,org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation,int) -> a
+    void setStroke(android.graphics.Paint$Cap,android.graphics.Paint$Join,float,android.graphics.Paint$Style,android.graphics.PathEffect,android.graphics.Paint) -> a
+    void drawChartValuesText(android.graphics.Canvas,org.achartengine.model.XYSeries,org.achartengine.renderer.SimpleSeriesRenderer,android.graphics.Paint,float[],int,int) -> a
+    void drawText(android.graphics.Canvas,java.lang.String,float,float,android.graphics.Paint,float) -> a
+    void transform(android.graphics.Canvas,float,boolean) -> a
+    void drawXLabels(java.util.List,java.lang.Double[],android.graphics.Canvas,android.graphics.Paint,int,int,int,double,double,double) -> a
+    void drawYLabels(java.util.Map,android.graphics.Canvas,android.graphics.Paint,int,int,int,int,double[],double[]) -> a
+    void drawXTextLabels(java.lang.Double[],android.graphics.Canvas,android.graphics.Paint,boolean,int,int,int,double,double,double) -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer getRenderer() -> c
+    org.achartengine.model.XYMultipleSeriesDataset getDataset() -> d
+    double[] getCalcRange(int) -> b
+    int getLabelLinePos(android.graphics.Paint$Align) -> a
+    double[] toRealPoint(float,float,int) -> a
+    org.achartengine.model.SeriesSelection getSeriesAndPointForScreenCoordinate(org.achartengine.model.Point) -> a
+    void drawSeries(android.graphics.Canvas,android.graphics.Paint,float[],org.achartengine.renderer.SimpleSeriesRenderer,float,int,int) -> a
+    org.achartengine.chart.ClickableArea[] clickableAreasForPoints(float[],double[],float,int,int) -> a
+    boolean isRenderNullValues() -> e
+    boolean isRenderPoints(org.achartengine.renderer.SimpleSeriesRenderer) -> a
+    org.achartengine.chart.ScatterChart getPointsChart() -> a
+org.achartengine.model.Point -> a.a.b.a:
+    float mX -> a
+    float mY -> b
+    float getX() -> a
+    float getY() -> b
+org.achartengine.model.SeriesSelection -> a.a.b.b:
+    int mSeriesIndex -> a
+    int mPointIndex -> b
+    double mXValue -> c
+    double mValue -> d
+org.achartengine.model.XYMultipleSeriesDataset -> a.a.b.c:
+    java.util.List mSeries -> a
+    void addSeries(org.achartengine.model.XYSeries) -> a
+    org.achartengine.model.XYSeries getSeriesAt(int) -> a
+    int getSeriesCount() -> a
+    org.achartengine.model.XYSeries[] getSeries() -> b
+org.achartengine.model.XYSeries -> a.a.b.d:
+    java.lang.String mTitle -> a
+    org.achartengine.util.IndexXYMap mXY -> b
+    double mMinX -> c
+    double mMaxX -> d
+    double mMinY -> e
+    double mMaxY -> f
+    int mScaleNumber -> g
+    int getScaleNumber() -> a
+    void initRange() -> h
+    void updateRange(double,double) -> b
+    java.lang.String getTitle() -> b
+    void add(double,double) -> a
+    double getX(int) -> a
+    double getY(int) -> b
+    java.util.SortedMap getRange(double,double,int) -> a
+    int getIndexForKey(double) -> a
+    int getItemCount() -> c
+    double getMinX() -> d
+    double getMinY() -> e
+    double getMaxX() -> f
+    double getMaxY() -> g
+org.achartengine.renderer.BasicStroke -> a.a.c.a:
+    org.achartengine.renderer.BasicStroke SOLID -> a
+    org.achartengine.renderer.BasicStroke DASHED -> b
+    org.achartengine.renderer.BasicStroke DOTTED -> c
+    android.graphics.Paint$Cap mCap -> d
+    android.graphics.Paint$Join mJoin -> e
+    float mMiter -> f
+    float[] mIntervals -> g
+    float mPhase -> h
+    android.graphics.Paint$Cap getCap() -> a
+    android.graphics.Paint$Join getJoin() -> b
+    float getMiter() -> c
+    float[] getIntervals() -> d
+    float getPhase() -> e
+org.achartengine.renderer.DefaultRenderer -> a.a.c.b:
+    java.lang.String mChartTitle -> a
+    float mChartTitleTextSize -> b
+    android.graphics.Typeface REGULAR_TEXT_FONT -> c
+    java.lang.String mTextTypefaceName -> d
+    int mTextTypefaceStyle -> e
+    int mBackgroundColor -> f
+    boolean mApplyBackgroundColor -> g
+    boolean mShowAxes -> h
+    int mAxesColor -> i
+    boolean mShowLabels -> j
+    int mLabelsColor -> k
+    float mLabelsTextSize -> l
+    boolean mShowLegend -> m
+    float mLegendTextSize -> n
+    boolean mFitLegend -> o
+    boolean mShowGridX -> p
+    boolean mShowGridY -> q
+    boolean mShowCustomTextGrid -> r
+    java.util.List mRenderers -> s
+    boolean mAntialiasing -> t
+    int mLegendHeight -> u
+    int[] mMargins -> v
+    float mScale -> w
+    boolean mPanEnabled -> x
+    boolean mZoomEnabled -> y
+    boolean mZoomButtonsVisible -> z
+    float mZoomRate -> A
+    boolean mExternalZoomEnabled -> B
+    float mOriginalScale -> C
+    boolean mClickEnabled -> D
+    int selectableBuffer -> E
+    boolean mInScroll -> F
+    float mStartAngle -> G
+    java.lang.String getChartTitle() -> a
+    float getChartTitleTextSize() -> b
+    void setChartTitleTextSize(float) -> a
+    void addSeriesRenderer(org.achartengine.renderer.SimpleSeriesRenderer) -> a
+    org.achartengine.renderer.SimpleSeriesRenderer getSeriesRendererAt(int) -> a
+    int getSeriesRendererCount() -> c
+    int getBackgroundColor() -> d
+    void setBackgroundColor(int) -> b
+    boolean isApplyBackgroundColor() -> e
+    void setApplyBackgroundColor(boolean) -> a
+    int getAxesColor() -> f
+    void setAxesColor(int) -> c
+    int getLabelsColor() -> g
+    float getLabelsTextSize() -> h
+    void setLabelsTextSize(float) -> b
+    boolean isShowAxes() -> i
+    boolean isShowLabels() -> j
+    boolean isShowGridX() -> k
+    boolean isShowGridY() -> l
+    void setShowGridX(boolean) -> b
+    void setShowGridY(boolean) -> c
+    void setShowGrid(boolean) -> d
+    boolean isShowCustomTextGrid() -> m
+    boolean isShowLegend() -> n
+    boolean isFitLegend() -> o
+    java.lang.String getTextTypefaceName() -> p
+    int getTextTypefaceStyle() -> q
+    float getLegendTextSize() -> r
+    void setLegendTextSize(float) -> c
+    boolean isAntialiasing() -> s
+    float getScale() -> t
+    float getOriginalScale() -> u
+    void setScale(float) -> d
+    boolean isZoomEnabled() -> v
+    void setZoomEnabled(boolean) -> e
+    boolean isZoomButtonsVisible() -> w
+    void setZoomButtonsVisible(boolean) -> f
+    boolean isExternalZoomEnabled() -> x
+    float getZoomRate() -> y
+    boolean isPanEnabled() -> z
+    void setPanEnabled(boolean) -> g
+    void setZoomRate(float) -> e
+    boolean isClickEnabled() -> A
+    void setClickEnabled(boolean) -> h
+    int getSelectableBuffer() -> B
+    void setSelectableBuffer(int) -> d
+    int getLegendHeight() -> C
+    void setLegendHeight(int) -> e
+    int[] getMargins() -> D
+    boolean isInScroll() -> E
+org.achartengine.renderer.SimpleSeriesRenderer -> a.a.c.c:
+    int mColor -> a
+    boolean mDisplayChartValues -> b
+    int mDisplayChartValuesDistance -> c
+    float mChartValuesTextSize -> d
+    android.graphics.Paint$Align mChartValuesTextAlign -> e
+    float mChartValuesSpacing -> f
+    org.achartengine.renderer.BasicStroke mStroke -> g
+    boolean mGradientEnabled -> h
+    int getColor() -> a
+    boolean isDisplayChartValues() -> b
+    void setDisplayChartValues(boolean) -> a
+    int getDisplayChartValuesDistance() -> c
+    void setDisplayChartValuesDistance(int) -> a
+    float getChartValuesTextSize() -> d
+    android.graphics.Paint$Align getChartValuesTextAlign() -> e
+    float getChartValuesSpacing() -> f
+    org.achartengine.renderer.BasicStroke getStroke() -> g
+org.achartengine.renderer.XYMultipleSeriesRenderer -> a.a.c.d:
+    java.lang.String mXTitle -> a
+    java.lang.String[] mYTitle -> b
+    float mAxisTitleTextSize -> c
+    double[] mMinX -> d
+    double[] mMaxX -> e
+    double[] mMinY -> f
+    double[] mMaxY -> g
+    int mXLabels -> h
+    int mYLabels -> i
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation mOrientation -> j
+    java.util.Map mXTextLabels -> k
+    java.util.Map mYTextLabels -> l
+    boolean mPanXEnabled -> m
+    boolean mPanYEnabled -> n
+    boolean mZoomXEnabled -> o
+    boolean mZoomYEnabled -> p
+    double mBarSpacing -> q
+    int mMarginsColor -> r
+    double[] mPanLimits -> s
+    double[] mZoomLimits -> t
+    float mXLabelsAngle -> u
+    float mYLabelsAngle -> v
+    java.util.Map initialRange -> w
+    float mPointSize -> x
+    int mGridColor -> y
+    int scalesCount -> z
+    android.graphics.Paint$Align xLabelsAlign -> A
+    android.graphics.Paint$Align[] yLabelsAlign -> B
+    android.graphics.Paint$Align[] yAxisAlign -> C
+    int mXLabelsColor -> D
+    int[] mYLabelsColor -> E
+    boolean xAxisBold -> F
+    boolean yAxisBold -> G
+    boolean mXRoundedLabels -> H
+    void initAxesRange(int) -> f
+    void initAxesRangeForScale(int) -> g
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation getOrientation() -> F
+    java.lang.String getXTitle() -> G
+    java.lang.String getYTitle() -> H
+    java.lang.String getYTitle(int) -> h
+    float getAxisTitleTextSize() -> I
+    void setAxisTitleTextSize(float) -> f
+    double getXAxisMin(int) -> i
+    void setXAxisMin(double,int) -> a
+    boolean isMinXSet(int) -> j
+    double getXAxisMax(int) -> k
+    void setXAxisMax(double,int) -> b
+    boolean isMaxXSet(int) -> l
+    double getYAxisMin(int) -> m
+    void setYAxisMin(double,int) -> c
+    boolean isMinYSet(int) -> n
+    double getYAxisMax(int) -> o
+    void setYAxisMax(double,int) -> d
+    boolean isMaxYSet(int) -> p
+    int getXLabels() -> J
+    void setXLabels(int) -> q
+    java.lang.String getXTextLabel(java.lang.Double) -> a
+    java.lang.Double[] getXTextLabelLocations() -> K
+    java.lang.String getYTextLabel(java.lang.Double,int) -> a
+    java.lang.Double[] getYTextLabelLocations(int) -> r
+    int getYLabels() -> L
+    void setYLabels(int) -> s
+    boolean isPanEnabled() -> z
+    boolean isPanXEnabled() -> M
+    boolean isPanYEnabled() -> N
+    void setPanEnabled(boolean,boolean) -> a
+    void setPanEnabled(boolean) -> g
+    boolean isZoomEnabled() -> v
+    boolean isZoomXEnabled() -> O
+    boolean isZoomYEnabled() -> P
+    int getMarginsColor() -> Q
+    void setMarginsColor(int) -> t
+    int getGridColor() -> R
+    double[] getPanLimits() -> S
+    double[] getZoomLimits() -> T
+    float getXLabelsAngle() -> U
+    float getYLabelsAngle() -> V
+    float getPointSize() -> W
+    void setPointSize(float) -> g
+    void setRange(double[],int) -> a
+    boolean isInitialRangeSet() -> X
+    boolean isInitialRangeSet(int) -> u
+    double[] getInitialRange(int) -> v
+    int getXLabelsColor() -> Y
+    int getYLabelsColor(int) -> w
+    android.graphics.Paint$Align getXLabelsAlign() -> Z
+    android.graphics.Paint$Align getYLabelsAlign(int) -> x
+    android.graphics.Paint$Align getYAxisAlign(int) -> y
+    int getScalesCount() -> aa
+    boolean isXAxisBold() -> ab
+    void setXAxisBold(boolean) -> i
+    boolean isYAxisBold() -> ac
+    void setYAxisBold(boolean) -> j
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation -> a.a.c.e:
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation HORIZONTAL -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation VERTICAL -> b
+    int mAngle -> c
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[] ENUM$VALUES -> d
+    int getAngle() -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[] values() -> values
+    org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String) -> valueOf
+org.achartengine.renderer.XYSeriesRenderer -> a.a.c.f:
+    boolean mFillPoints -> a
+    boolean mFillBelowLine -> b
+    int mFillColor -> c
+    org.achartengine.chart.PointStyle mPointStyle -> d
+    float mLineWidth -> e
+    boolean isFillBelowLine() -> h
+    boolean isFillPoints() -> i
+    void setFillPoints(boolean) -> b
+    int getFillBelowLineColor() -> j
+    org.achartengine.chart.PointStyle getPointStyle() -> k
+    void setPointStyle(org.achartengine.chart.PointStyle) -> a
+    float getLineWidth() -> l
+org.achartengine.tools.AbstractTool -> a.a.d.a:
+    org.achartengine.chart.AbstractChart mChart -> a
+    org.achartengine.renderer.XYMultipleSeriesRenderer mRenderer -> b
+    double[] getRange(int) -> a
+    void checkRange(double[],int) -> a
+    void setXRange(double,double,int) -> a
+    void setYRange(double,double,int) -> b
+org.achartengine.tools.FitZoom -> a.a.d.b:
+    void apply() -> a
+org.achartengine.tools.Pan -> a.a.d.c:
+    java.util.List mPanListeners -> c
+    boolean limitsReachedX -> d
+    boolean limitsReachedY -> e
+    void apply(float,float,float,float) -> a
+    double getAxisRatio(double[]) -> a
+    void notifyPanListeners() -> a
+org.achartengine.tools.PanListener -> a.a.d.d:
+    void panApplied() -> a
+org.achartengine.tools.Zoom -> a.a.d.e:
+    boolean mZoomIn -> c
+    float mZoomRate -> d
+    java.util.List mZoomListeners -> e
+    boolean limitsReachedX -> f
+    boolean limitsReachedY -> g
+    void setZoomRate(float) -> a
+    void apply(int) -> b
+    void notifyZoomListeners(org.achartengine.tools.ZoomEvent) -> a
+    void notifyZoomResetListeners() -> a
+org.achartengine.tools.ZoomEvent -> a.a.d.f:
+    boolean mZoomIn -> a
+    float mZoomRate -> b
+org.achartengine.tools.ZoomListener -> a.a.d.g:
+    void zoomApplied(org.achartengine.tools.ZoomEvent) -> a
+    void zoomReset() -> a
+org.achartengine.util.IndexXYMap -> a.a.e.a:
+    java.util.List indexList -> a
+    double maxXDifference -> b
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    void updateMaxXDifference() -> a
+    void clear() -> clear
+    java.lang.Object getXByIndex(int) -> a
+    java.lang.Object getYByIndex(int) -> b
+    int getIndexForKey(java.lang.Object) -> a
+org.achartengine.util.MathHelper -> a.a.e.b:
+    java.text.NumberFormat FORMAT -> a
+    java.util.List getLabels(double,double,int) -> a
+    double[] computeLabels(double,double,int) -> b
+    double roundUp(double) -> a
+    float[] getFloats(java.util.List) -> a
+    double[] getDoubles(java.util.List) -> b

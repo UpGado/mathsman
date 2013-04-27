@@ -32,7 +32,10 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, ArcActivity.class);
 		startActivity(intent);
 	}
-	
+	public void distance3d(View view) {
+		Intent intent = new Intent(this, Distance3DActivity.class);
+		startActivity(intent);
+	}
 	public void xSin (View view) {
 		Intent intent = new Intent(this, xSinActivity.class);
 		startActivity(intent);

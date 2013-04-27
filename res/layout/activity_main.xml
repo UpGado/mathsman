@@ -66,7 +66,16 @@
                 android:text="@string/title_activity_distance" 
                 android:layout_marginBottom="1sp"
                 android:textSize="20sp"/>
-
+			<Button
+                android:id="@+id/Button0z3"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/homeIcon"
+                android:onClick="distance3d"
+                android:text="@string/title_activity_3ddistance" 
+                android:layout_marginBottom="1sp"
+                android:textSize="20sp"/>
             <Button
                 android:id="@+id/Button02"
                 style="@style/ButtonText"

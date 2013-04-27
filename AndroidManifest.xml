@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gadoworld.mathman"
     android:versionCode="2"
-    android:versionName="2.4" >
+    android:versionName="2.5" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -39,6 +39,7 @@
         <activity android:name="ArcActivity"></activity>
         <activity android:name="AboutActivity"></activity>
         <activity android:name="GraphActivity" android:configChanges="orientation|screenSize"></activity>
+        <activity android:name="Distance3DActivity"></activity>
     </application>
 
 </manifest>

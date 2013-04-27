@@ -618,16 +618,109 @@ android.support.v4.widget.SearchViewCompatHoneycomb$OnQueryTextListenerCompatBri
 android.support.v4.widget.SimpleCursorAdapter
 android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
 android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+bsh.BSHAllocationExpression
+bsh.BSHAmbiguousName
+bsh.BSHArguments
+bsh.BSHArrayDimensions
+bsh.BSHArrayInitializer
+bsh.BSHAssignment
+bsh.BSHBinaryExpression
+bsh.BSHBlock
+bsh.BSHBlock$NodeFilter
+bsh.BSHCastExpression
+bsh.BSHClassDeclaration
+bsh.BSHEnhancedForStatement
+bsh.BSHForStatement
+bsh.BSHFormalComment
+bsh.BSHFormalParameter
+bsh.BSHFormalParameters
+bsh.BSHIfStatement
+bsh.BSHImportDeclaration
+bsh.BSHLiteral
+bsh.BSHMethodDeclaration
+bsh.BSHMethodInvocation
+bsh.BSHPackageDeclaration
+bsh.BSHPrimaryExpression
+bsh.BSHPrimarySuffix
+bsh.BSHPrimitiveType
+bsh.BSHReturnStatement
+bsh.BSHReturnType
+bsh.BSHStatementExpressionList
+bsh.BSHSwitchLabel
+bsh.BSHSwitchStatement
+bsh.BSHTernaryExpression
+bsh.BSHThrowStatement
+bsh.BSHTryStatement
+bsh.BSHType
+bsh.BSHTypedVariableDeclaration
+bsh.BSHUnaryExpression
+bsh.BSHVariableDeclarator
+bsh.BSHWhileStatement
+bsh.BlockNameSpace
+bsh.BshClassManager
+bsh.BshClassManager$Listener
+bsh.BshClassManager$SignatureKey
+bsh.BshIterator
+bsh.BshMethod
+bsh.CallStack
+bsh.Capabilities
+bsh.Capabilities$Unavailable
+bsh.ClassGenerator
+bsh.ClassIdentifier
+bsh.ClassPathException
+bsh.CollectionManager
+bsh.CollectionManager$1
+bsh.CollectionManager$BasicBshIterator
+bsh.CommandLineReader
+bsh.ConsoleInterface
+bsh.EvalError
+bsh.ExternalNameSpace
+bsh.Interpreter
+bsh.Interpreter$1
+bsh.InterpreterError
+bsh.JJTParserState
+bsh.JavaCharStream
+bsh.LHS
+bsh.Modifiers
+bsh.Name
+bsh.NameSource
+bsh.NameSource$Listener
+bsh.NameSpace
+bsh.Node
+bsh.ParseException
+bsh.Parser
+bsh.Parser$1
+bsh.Parser$LookaheadSuccess
+bsh.ParserConstants
+bsh.ParserTokenManager
+bsh.ParserTreeConstants
+bsh.Primitive
+bsh.Primitive$Special
+bsh.Reflect
+bsh.ReflectError
+bsh.ReflectManager
+bsh.ReturnControl
+bsh.SimpleNode
+bsh.SimpleNode$1
+bsh.StringUtil
+bsh.TargetError
+bsh.This
+bsh.Token
+bsh.TokenMgrError
+bsh.Types
+bsh.UtilEvalError
+bsh.UtilTargetError
+bsh.Variable
+bsh.XThis
+bsh.XThis$Handler
 com.gadoworld.mathman.BuildConfig
 com.gadoworld.mathman.CirActivity:
     android.widget.EditText editA
-com.gadoworld.mathman.CosActivity:
-    android.widget.EditText editA
+com.gadoworld.mathman.CustomDialog:
+    public android.app.Dialog d
 com.gadoworld.mathman.Fraction:
     private static final long serialVersionUID
     60:60:public double asDouble()
-com.gadoworld.mathman.MainActivity:
-    85:85:public boolean isEmpty(java.lang.String)
 com.gadoworld.mathman.R
 com.gadoworld.mathman.R$array
 com.gadoworld.mathman.R$attr
@@ -645,3 +738,261 @@ com.gadoworld.mathman.SqrActivity:
     android.widget.EditText editA
 com.gadoworld.mathman.TanActivity:
     android.widget.EditText editA
+com.gadoworld.mathman.xCosActivity:
+    android.widget.EditText editA
+com.gadoworld.mathman.xSinActivity:
+    android.widget.EditText editA
+com.gadoworld.mathman.xTanActivity:
+    android.widget.EditText editA
+org.achartengine.ChartFactory:
+    public static final java.lang.String CHART
+    public static final java.lang.String TITLE
+    52:54:private ChartFactory()
+    87:89:public static final org.achartengine.GraphicalView getCubeLineChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float)
+    105:107:public static final org.achartengine.GraphicalView getScatterChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    123:125:public static final org.achartengine.GraphicalView getBubbleChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    143:146:public static final org.achartengine.GraphicalView getTimeChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    163:165:public static final org.achartengine.GraphicalView getBarChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type)
+    182:184:public static final org.achartengine.GraphicalView getRangeBarChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type)
+    201:208:public static final org.achartengine.GraphicalView getCombinedXYChartView(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String[])
+    225:227:public static final org.achartengine.GraphicalView getPieChartView(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    244:246:public static final org.achartengine.GraphicalView getDialChartView(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DialRenderer)
+    263:265:public static final org.achartengine.GraphicalView getDoughnutChartView(android.content.Context,org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer)
+    283:283:public static final android.content.Intent getLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    288:288:public static final android.content.Intent getOrderedXYChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    306:306:public static final android.content.Intent getCubicLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float)
+    323:323:public static final android.content.Intent getScatterChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    340:340:public static final android.content.Intent getBubbleChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    359:359:public static final android.content.Intent getTimeChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    377:377:public static final android.content.Intent getBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type)
+    398:403:public static final android.content.Intent getLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    408:413:public static final android.content.Intent getOrderedXYChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    435:440:public static final android.content.Intent getCubicLineChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,float,java.lang.String)
+    458:463:public static final android.content.Intent getScatterChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    481:486:public static final android.content.Intent getBubbleChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String)
+    506:512:public static final android.content.Intent getTimeChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String,java.lang.String)
+    531:536:public static final android.content.Intent getBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type,java.lang.String)
+    556:561:public static final android.content.Intent getRangeBarChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,org.achartengine.chart.BarChart$Type,java.lang.String)
+    581:591:public static final android.content.Intent getCombinedXYChartIntent(android.content.Context,org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer,java.lang.String[],java.lang.String)
+    609:614:public static final android.content.Intent getPieChartIntent(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer,java.lang.String)
+    632:637:public static final android.content.Intent getDoughnutChartIntent(android.content.Context,org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer,java.lang.String)
+    655:660:public static final android.content.Intent getDialChartIntent(android.content.Context,org.achartengine.model.CategorySeries,org.achartengine.renderer.DialRenderer,java.lang.String)
+    691:696:private static void checkParameters(org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    708:713:private static void checkParameters(org.achartengine.model.MultipleCategorySeries,org.achartengine.renderer.DefaultRenderer)
+    716:721:private static boolean checkMultipleSeriesItems(org.achartengine.model.MultipleCategorySeries,int)
+org.achartengine.GraphicalActivity
+org.achartengine.GraphicalView:
+    145:149:public double[] toRealPoint(int)
+    231:240:public void addZoomListener(org.achartengine.tools.ZoomListener,boolean,boolean)
+    248:253:public synchronized void removeZoomListener(org.achartengine.tools.ZoomListener)
+    261:262:public void addPanListener(org.achartengine.tools.PanListener)
+    270:271:public void removePanListener(org.achartengine.tools.PanListener)
+    313:318:public void repaint(int,int,int,int)
+    326:334:public android.graphics.Bitmap toBitmap()
+org.achartengine.GraphicalView$2
+org.achartengine.ITouchHandler:
+    public abstract void addZoomListener(org.achartengine.tools.ZoomListener)
+    public abstract void removeZoomListener(org.achartengine.tools.ZoomListener)
+    public abstract void addPanListener(org.achartengine.tools.PanListener)
+    public abstract void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.TouchHandler:
+    167:170:public void addZoomListener(org.achartengine.tools.ZoomListener)
+    178:181:public void removeZoomListener(org.achartengine.tools.ZoomListener)
+    189:192:public void addPanListener(org.achartengine.tools.PanListener)
+    200:203:public void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.TouchHandlerOld:
+    105:105:public void addZoomListener(org.achartengine.tools.ZoomListener)
+    113:113:public void removeZoomListener(org.achartengine.tools.ZoomListener)
+    121:124:public void addPanListener(org.achartengine.tools.PanListener)
+    132:135:public void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.chart.AbstractChart:
+    354:364:private java.lang.String getFitText(java.lang.String,float,android.graphics.Paint)
+    408:459:protected void drawLabel(android.graphics.Canvas,java.lang.String,org.achartengine.renderer.DefaultRenderer,java.util.List,int,int,float,float,float,float,int,int,int,android.graphics.Paint,boolean)
+org.achartengine.chart.BarChart
+org.achartengine.chart.BarChart$Type
+org.achartengine.chart.BubbleChart
+org.achartengine.chart.CombinedXYChart
+org.achartengine.chart.CubicLineChart
+org.achartengine.chart.DialChart
+org.achartengine.chart.DoughnutChart
+org.achartengine.chart.LineChart:
+    public static final java.lang.String TYPE
+    private static final int SHAPE_WIDTH
+    61:63:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    172:172:public java.lang.String getChartType()
+org.achartengine.chart.OrderedXYChart
+org.achartengine.chart.PieChart
+org.achartengine.chart.PieMapper
+org.achartengine.chart.PieSegment
+org.achartengine.chart.PointStyle:
+    62:70:public static org.achartengine.chart.PointStyle getPointStyleForName(java.lang.String)
+    79:87:public static int getIndexForName(java.lang.String)
+org.achartengine.chart.RangeBarChart
+org.achartengine.chart.RangeStackedBarChart
+org.achartengine.chart.RoundChart:
+    protected static final int SHAPE_WIDTH
+    protected org.achartengine.model.CategorySeries mDataset
+    protected static final int NO_VALUE
+    49:52:public RoundChart(org.achartengine.model.CategorySeries,org.achartengine.renderer.DefaultRenderer)
+    64:71:public void drawTitle(android.graphics.Canvas,int,int,int,android.graphics.Paint)
+org.achartengine.chart.ScatterChart:
+    public static final java.lang.String TYPE
+    private static final float SIZE
+    private static final int SHAPE_WIDTH
+    58:60:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    263:263:public java.lang.String getChartType()
+org.achartengine.chart.TimeChart
+org.achartengine.chart.XYChart:
+    92:94:protected void setDatasetRenderer(org.achartengine.model.XYMultipleSeriesDataset,org.achartengine.renderer.XYMultipleSeriesRenderer)
+    438:438:protected android.graphics.Rect getScreenR()
+    442:443:protected void setScreenR(android.graphics.Rect)
+    779:780:public void setCalcRange(double[],int)
+    783:783:public double[] toRealPoint(float,float)
+    787:787:public double[] toScreenPoint(double[])
+    817:829:public double[] toScreenPoint(double[],int)
+    907:907:public double getDefaultMinimum()
+    public abstract java.lang.String getChartType()
+org.achartengine.model.CategorySeries
+org.achartengine.model.MultipleCategorySeries
+org.achartengine.model.Point:
+    46:47:public void setX(float)
+    50:51:public void setY(float)
+org.achartengine.model.RangeCategorySeries
+org.achartengine.model.SeriesSelection:
+    35:35:public int getSeriesIndex()
+    39:39:public int getPointIndex()
+    43:43:public double getXValue()
+    47:47:public double getValue()
+org.achartengine.model.TimeSeries
+org.achartengine.model.XYMultipleSeriesDataset:
+    45:46:public synchronized void addSeries(int,org.achartengine.model.XYSeries)
+    54:55:public synchronized void removeSeries(int)
+    63:64:public synchronized void removeSeries(org.achartengine.model.XYSeries)
+org.achartengine.model.XYSeries:
+    116:117:public void setTitle(java.lang.String)
+    136:142:public synchronized void remove(int)
+    148:150:public synchronized void clear()
+org.achartengine.model.XYValueSeries
+org.achartengine.renderer.DefaultRenderer:
+    public static final int NO_COLOR
+    public static final int BACKGROUND_COLOR
+    public static final int TEXT_COLOR
+    private boolean mDisplayValues
+    124:125:public void setChartTitle(java.lang.String)
+    161:162:public void addSeriesRenderer(int,org.achartengine.renderer.SimpleSeriesRenderer)
+    170:171:public void removeSeriesRenderer(org.achartengine.renderer.SimpleSeriesRenderer)
+    177:178:public void removeAllRenderers()
+    205:205:public org.achartengine.renderer.SimpleSeriesRenderer[] getSeriesRenderers()
+    277:278:public void setLabelsColor(int)
+    313:314:public void setShowAxes(boolean)
+    331:332:public void setShowLabels(boolean)
+    395:396:public void setShowCustomTextGrid(boolean)
+    413:414:public void setShowLegend(boolean)
+    431:432:public void setFitLegend(boolean)
+    477:479:public void setTextTypeface(java.lang.String,int)
+    496:497:public void setAntialiasing(boolean)
+    578:579:public void setExternalZoomEnabled(boolean)
+    688:689:public void setMargins(int[])
+    707:708:public void setInScroll(boolean)
+    718:718:public float getStartAngle()
+    729:730:public void setStartAngle(float)
+    738:738:public boolean isDisplayValues()
+    747:748:public void setDisplayValues(boolean)
+org.achartengine.renderer.DialRenderer
+org.achartengine.renderer.DialRenderer$Type
+org.achartengine.renderer.SimpleSeriesRenderer:
+    private double mGradientStartValue
+    private int mGradientStartColor
+    private double mGradientStopValue
+    private int mGradientStopColor
+    67:68:public void setColor(int)
+    121:122:public void setChartValuesTextSize(float)
+    139:140:public void setChartValuesTextAlign(android.graphics.Paint$Align)
+    158:159:public void setChartValuesSpacing(float)
+    176:177:public void setStroke(org.achartengine.renderer.BasicStroke)
+    185:185:public boolean isGradientEnabled()
+    194:195:public void setGradientEnabled(boolean)
+    203:203:public double getGradientStartValue()
+    212:212:public int getGradientStartColor()
+    222:224:public void setGradientStart(double,int)
+    232:232:public double getGradientStopValue()
+    241:241:public int getGradientStopColor()
+    251:253:public void setGradientStop(double,int)
+org.achartengine.renderer.XYMultipleSeriesRenderer:
+    175:176:public void setOrientation(org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation)
+    193:194:public void setXTitle(java.lang.String)
+    221:222:public void setYTitle(java.lang.String)
+    231:232:public void setYTitle(java.lang.String,int)
+    258:258:public double getXAxisMin()
+    267:268:public void setXAxisMin(double)
+    276:276:public boolean isMinXSet()
+    285:285:public double getXAxisMax()
+    294:295:public void setXAxisMax(double)
+    303:303:public boolean isMaxXSet()
+    312:312:public double getYAxisMin()
+    321:322:public void setYAxisMin(double)
+    330:330:public boolean isMinYSet()
+    339:339:public double getYAxisMax()
+    348:349:public void setYAxisMax(double)
+    357:357:public boolean isMaxYSet()
+    518:519:public void addTextLabel(double,java.lang.String)
+    528:529:public synchronized void addXTextLabel(double,java.lang.String)
+    537:538:public synchronized void removeXTextLabel(double)
+    565:566:public void clearTextLabels()
+    572:573:public synchronized void clearXTextLabels()
+    581:581:public boolean isXRoundedLabels()
+    590:591:public void setXRoundedLabels(boolean)
+    600:601:public void addYTextLabel(double,java.lang.String)
+    609:610:public void removeYTextLabel(double)
+    620:621:public synchronized void addYTextLabel(double,java.lang.String,int)
+    630:631:public synchronized void removeYTextLabel(double,int)
+    640:640:public java.lang.String getYTextLabel(java.lang.Double)
+    660:660:public java.lang.Double[] getYTextLabelLocations()
+    677:678:public void clearYTextLabels()
+    686:687:public synchronized void clearYTextLabels(int)
+    714:718:public void setDisplayChartValues(boolean)
+    727:731:public void setChartValuesTextSize(float)
+    814:816:public void setZoomEnabled(boolean,boolean)
+    825:825:public double getBarsSpacing()
+    834:834:public double getBarSpacing()
+    845:846:public void setBarSpacing(double)
+    881:882:public void setGridColor(int)
+    901:902:public void setPanLimits(double[])
+    921:922:public void setZoomLimits(double[])
+    939:940:public void setXLabelsAngle(float)
+    957:958:public void setYLabelsAngle(float)
+    979:980:public void setRange(double[])
+    1016:1016:public double[] getInitialRange()
+    1036:1037:public void setInitialRange(double[])
+    1047:1048:public void setInitialRange(double[],int)
+    1074:1075:public void setXLabelsColor(int)
+    1084:1085:public void setYLabelsColor(int,int)
+    1102:1103:public void setXLabelsAlign(android.graphics.Paint$Align)
+    1116:1117:public void setYLabelsAlign(android.graphics.Paint$Align)
+    1124:1125:public void setYAxisAlign(android.graphics.Paint$Align,int)
+    1133:1134:public void setYLabelsAlign(android.graphics.Paint$Align,int)
+org.achartengine.renderer.XYSeriesRenderer:
+    53:54:public void setFillBelowLine(boolean)
+    89:90:public void setFillBelowLineColor(int)
+    125:126:public void setLineWidth(float)
+org.achartengine.tools.Pan:
+    151:152:public synchronized void addPanListener(org.achartengine.tools.PanListener)
+    160:161:public synchronized void removePanListener(org.achartengine.tools.PanListener)
+org.achartengine.tools.Zoom:
+    public static final int ZOOM_AXIS_XY
+    public static final int ZOOM_AXIS_X
+    public static final int ZOOM_AXIS_Y
+    170:171:public synchronized void addZoomListener(org.achartengine.tools.ZoomListener)
+    179:180:public synchronized void removeZoomListener(org.achartengine.tools.ZoomListener)
+org.achartengine.tools.ZoomEvent:
+    45:45:public boolean isZoomIn()
+    54:54:public float getZoomRate()
+org.achartengine.util.IndexXYMap:
+    54:54:public double getMaxXDifference()
+    91:92:public org.achartengine.util.XYEntry getByIndex(int)
+    101:102:public org.achartengine.util.XYEntry removeByIndex(int)
+org.achartengine.util.MathHelper:
+    public static final double NULL_VALUE
+    35:37:private MathHelper()
+    46:57:public static double[] minmax(java.util.List)
+org.achartengine.util.XYEntry

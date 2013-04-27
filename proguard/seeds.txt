@@ -41,6 +41,11 @@ android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
 android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
 android.support.v4.view.ViewPager$SavedState
 android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.gadoworld.mathman.AboutActivity
+com.gadoworld.mathman.AboutActivity: AboutActivity()
+com.gadoworld.mathman.ArcActivity
+com.gadoworld.mathman.ArcActivity: ArcActivity()
+com.gadoworld.mathman.ArcActivity: void sin(android.view.View)
 com.gadoworld.mathman.CirActivity
 com.gadoworld.mathman.CirActivity: CirActivity()
 com.gadoworld.mathman.CirActivity: void cir(android.view.View)
@@ -50,14 +55,25 @@ com.gadoworld.mathman.CircleActivity: void rel(android.view.View)
 com.gadoworld.mathman.CosActivity
 com.gadoworld.mathman.CosActivity: CosActivity()
 com.gadoworld.mathman.CosActivity: void cos(android.view.View)
+com.gadoworld.mathman.Distance3DActivity
+com.gadoworld.mathman.Distance3DActivity: Distance3DActivity()
+com.gadoworld.mathman.Distance3DActivity: void distance(android.view.View)
 com.gadoworld.mathman.DistanceActivity
 com.gadoworld.mathman.DistanceActivity: DistanceActivity()
 com.gadoworld.mathman.DistanceActivity: void distance(android.view.View)
 com.gadoworld.mathman.FormActivity
 com.gadoworld.mathman.FormActivity: FormActivity()
 com.gadoworld.mathman.FormActivity: void form(android.view.View)
+com.gadoworld.mathman.GraphActivity
+com.gadoworld.mathman.GraphActivity: GraphActivity()
+com.gadoworld.mathman.GraphActivity: void addSegment(android.view.View)
 com.gadoworld.mathman.MainActivity
 com.gadoworld.mathman.MainActivity: MainActivity()
+com.gadoworld.mathman.MainActivity: void arc(android.view.View)
+com.gadoworld.mathman.MainActivity: void distance3d(android.view.View)
+com.gadoworld.mathman.MainActivity: void xSin(android.view.View)
+com.gadoworld.mathman.MainActivity: void xCos(android.view.View)
+com.gadoworld.mathman.MainActivity: void xTan(android.view.View)
 com.gadoworld.mathman.MainActivity: void slope(android.view.View)
 com.gadoworld.mathman.MainActivity: void distance(android.view.View)
 com.gadoworld.mathman.MainActivity: void mid(android.view.View)
@@ -68,10 +84,12 @@ com.gadoworld.mathman.MainActivity: void sqr(android.view.View)
 com.gadoworld.mathman.MainActivity: void sin(android.view.View)
 com.gadoworld.mathman.MainActivity: void cos(android.view.View)
 com.gadoworld.mathman.MainActivity: void tan(android.view.View)
+com.gadoworld.mathman.MainActivity: void graph(android.view.View)
 com.gadoworld.mathman.MidActivity
 com.gadoworld.mathman.MidActivity: MidActivity()
 com.gadoworld.mathman.MidActivity: void mid(android.view.View)
 com.gadoworld.mathman.R$array: int color_array
+com.gadoworld.mathman.R$attr: int editTex
 com.gadoworld.mathman.R$attr: int homeIcon
 com.gadoworld.mathman.R$attr: int titleColor
 com.gadoworld.mathman.R$color: int holo_blue_dark
@@ -88,7 +106,6 @@ com.gadoworld.mathman.R$drawable: int btn_green
 com.gadoworld.mathman.R$drawable: int btn_orange
 com.gadoworld.mathman.R$drawable: int btn_purple
 com.gadoworld.mathman.R$drawable: int btn_red
-com.gadoworld.mathman.R$drawable: int ic_action_search
 com.gadoworld.mathman.R$drawable: int ic_launcher
 com.gadoworld.mathman.R$id: int Button01
 com.gadoworld.mathman.R$id: int Button02
@@ -99,21 +116,32 @@ com.gadoworld.mathman.R$id: int Button06
 com.gadoworld.mathman.R$id: int Button07
 com.gadoworld.mathman.R$id: int Button08
 com.gadoworld.mathman.R$id: int Button09
+com.gadoworld.mathman.R$id: int Button0z3
 com.gadoworld.mathman.R$id: int Button10
+com.gadoworld.mathman.R$id: int Button11
+com.gadoworld.mathman.R$id: int Button12
+com.gadoworld.mathman.R$id: int EditText01
 com.gadoworld.mathman.R$id: int EditTextA
 com.gadoworld.mathman.R$id: int EditTextB
 com.gadoworld.mathman.R$id: int EditTextC
 com.gadoworld.mathman.R$id: int EditTextMN
 com.gadoworld.mathman.R$id: int EditTextR1
 com.gadoworld.mathman.R$id: int EditTextR2
+com.gadoworld.mathman.R$id: int EditTextZ2
 com.gadoworld.mathman.R$id: int Testy
+com.gadoworld.mathman.R$id: int TexdtView02
 com.gadoworld.mathman.R$id: int TextView01
 com.gadoworld.mathman.R$id: int TextView02
 com.gadoworld.mathman.R$id: int TextView03
+com.gadoworld.mathman.R$id: int TextView0312
 com.gadoworld.mathman.R$id: int TextView04
 com.gadoworld.mathman.R$id: int TextView05
 com.gadoworld.mathman.R$id: int TextView06
+com.gadoworld.mathman.R$id: int btn_no
+com.gadoworld.mathman.R$id: int btn_yes
 com.gadoworld.mathman.R$id: int button1
+com.gadoworld.mathman.R$id: int chart
+com.gadoworld.mathman.R$id: int editCosR
 com.gadoworld.mathman.R$id: int editDisX1
 com.gadoworld.mathman.R$id: int editDisX2
 com.gadoworld.mathman.R$id: int editDisY1
@@ -129,54 +157,78 @@ com.gadoworld.mathman.R$id: int editX1
 com.gadoworld.mathman.R$id: int editX2
 com.gadoworld.mathman.R$id: int editY1
 com.gadoworld.mathman.R$id: int editY2
+com.gadoworld.mathman.R$id: int editlen
 com.gadoworld.mathman.R$id: int imageView1
+com.gadoworld.mathman.R$id: int itemAbout
 com.gadoworld.mathman.R$id: int layoutAction
 com.gadoworld.mathman.R$id: int layoutActionMain
+com.gadoworld.mathman.R$id: int lin
+com.gadoworld.mathman.R$id: int lin2
 com.gadoworld.mathman.R$id: int linearLayout1
 com.gadoworld.mathman.R$id: int linearLayout2
+com.gadoworld.mathman.R$id: int linearLayout21
 com.gadoworld.mathman.R$id: int linearLayoutTitle
 com.gadoworld.mathman.R$id: int menu_theme
+com.gadoworld.mathman.R$id: int new_series
 com.gadoworld.mathman.R$id: int scrollView1
 com.gadoworld.mathman.R$id: int textCirRes
 com.gadoworld.mathman.R$id: int textCireRes
+com.gadoworld.mathman.R$id: int textCosRes
 com.gadoworld.mathman.R$id: int textDisRes
 com.gadoworld.mathman.R$id: int textFormRes
 com.gadoworld.mathman.R$id: int textMidRes
 com.gadoworld.mathman.R$id: int textRes
 com.gadoworld.mathman.R$id: int textSinRes
 com.gadoworld.mathman.R$id: int textView1
+com.gadoworld.mathman.R$id: int textView11
 com.gadoworld.mathman.R$id: int textView2
 com.gadoworld.mathman.R$id: int textView3
+com.gadoworld.mathman.R$layout: int activity_3ddistance
+com.gadoworld.mathman.R$layout: int activity_about
+com.gadoworld.mathman.R$layout: int activity_arc
 com.gadoworld.mathman.R$layout: int activity_cir
 com.gadoworld.mathman.R$layout: int activity_circle
 com.gadoworld.mathman.R$layout: int activity_color
 com.gadoworld.mathman.R$layout: int activity_cos
 com.gadoworld.mathman.R$layout: int activity_distance
 com.gadoworld.mathman.R$layout: int activity_form
+com.gadoworld.mathman.R$layout: int activity_graph
 com.gadoworld.mathman.R$layout: int activity_main
 com.gadoworld.mathman.R$layout: int activity_mid
+com.gadoworld.mathman.R$layout: int activity_probability
 com.gadoworld.mathman.R$layout: int activity_sin
 com.gadoworld.mathman.R$layout: int activity_slope
 com.gadoworld.mathman.R$layout: int activity_square
 com.gadoworld.mathman.R$layout: int activity_tan
+com.gadoworld.mathman.R$layout: int activity_xcos
+com.gadoworld.mathman.R$layout: int activity_xsin
+com.gadoworld.mathman.R$layout: int activity_xtan
+com.gadoworld.mathman.R$layout: int custom_dialog
 com.gadoworld.mathman.R$menu: int activity_main
 com.gadoworld.mathman.R$string: int X1
 com.gadoworld.mathman.R$string: int X2
 com.gadoworld.mathman.R$string: int Y1
 com.gadoworld.mathman.R$string: int Y2
 com.gadoworld.mathman.R$string: int a
+com.gadoworld.mathman.R$string: int about
+com.gadoworld.mathman.R$string: int add
+com.gadoworld.mathman.R$string: int add_values
 com.gadoworld.mathman.R$string: int angle
 com.gadoworld.mathman.R$string: int app_name
+com.gadoworld.mathman.R$string: int arc
 com.gadoworld.mathman.R$string: int b
 com.gadoworld.mathman.R$string: int blue_dark
 com.gadoworld.mathman.R$string: int blue_light
 com.gadoworld.mathman.R$string: int c
+com.gadoworld.mathman.R$string: int ce
 com.gadoworld.mathman.R$string: int cir
 com.gadoworld.mathman.R$string: int circle
 com.gadoworld.mathman.R$string: int cirhelp
 com.gadoworld.mathman.R$string: int comma
 com.gadoworld.mathman.R$string: int cosine
+com.gadoworld.mathman.R$string: int cosine1
 com.gadoworld.mathman.R$string: int darrow
+com.gadoworld.mathman.R$string: int enter_two_points
 com.gadoworld.mathman.R$string: int formula
 com.gadoworld.mathman.R$string: int get_cir
 com.gadoworld.mathman.R$string: int get_cos
@@ -188,16 +240,23 @@ com.gadoworld.mathman.R$string: int get_sin
 com.gadoworld.mathman.R$string: int get_slope
 com.gadoworld.mathman.R$string: int get_sqr
 com.gadoworld.mathman.R$string: int get_tan
+com.gadoworld.mathman.R$string: int getangle
+com.gadoworld.mathman.R$string: int getarc
+com.gadoworld.mathman.R$string: int graph
 com.gadoworld.mathman.R$string: int green_dark
 com.gadoworld.mathman.R$string: int green_light
 com.gadoworld.mathman.R$string: int larrow
 com.gadoworld.mathman.R$string: int length
+com.gadoworld.mathman.R$string: int measure
 com.gadoworld.mathman.R$string: int menu_theme
 com.gadoworld.mathman.R$string: int mn
+com.gadoworld.mathman.R$string: int neg
+com.gadoworld.mathman.R$string: int new_series
 com.gadoworld.mathman.R$string: int orange_dark
 com.gadoworld.mathman.R$string: int orange_light
 com.gadoworld.mathman.R$string: int point1
 com.gadoworld.mathman.R$string: int point2
+com.gadoworld.mathman.R$string: int prob
 com.gadoworld.mathman.R$string: int purple
 com.gadoworld.mathman.R$string: int r1
 com.gadoworld.mathman.R$string: int r2
@@ -207,13 +266,19 @@ com.gadoworld.mathman.R$string: int red_dark
 com.gadoworld.mathman.R$string: int red_light
 com.gadoworld.mathman.R$string: int set_theme
 com.gadoworld.mathman.R$string: int sine
+com.gadoworld.mathman.R$string: int sine1
 com.gadoworld.mathman.R$string: int sqr
 com.gadoworld.mathman.R$string: int tane
+com.gadoworld.mathman.R$string: int tane1
+com.gadoworld.mathman.R$string: int title_activity_3ddistance
 com.gadoworld.mathman.R$string: int title_activity_distance
 com.gadoworld.mathman.R$string: int title_activity_mid
 com.gadoworld.mathman.R$string: int title_activity_slope
 com.gadoworld.mathman.R$string: int title_activity_theme
-com.gadoworld.mathman.R$string: int version
+com.gadoworld.mathman.R$string: int x
+com.gadoworld.mathman.R$string: int y
+com.gadoworld.mathman.R$string: int z1
+com.gadoworld.mathman.R$string: int z2
 com.gadoworld.mathman.R$style: int AppBaseTheme
 com.gadoworld.mathman.R$style: int AppTheme_Blue_Dark
 com.gadoworld.mathman.R$style: int AppTheme_Blue_Light
@@ -226,6 +291,7 @@ com.gadoworld.mathman.R$style: int AppTheme_Red_Dark
 com.gadoworld.mathman.R$style: int AppTheme_Red_Light
 com.gadoworld.mathman.R$style: int ButtonText
 com.gadoworld.mathman.R$styleable: int[] AppTheme
+com.gadoworld.mathman.R$styleable: int AppTheme_editTex
 com.gadoworld.mathman.R$styleable: int AppTheme_homeIcon
 com.gadoworld.mathman.R$styleable: int AppTheme_titleColor
 com.gadoworld.mathman.SinActivity
@@ -251,3 +317,23 @@ com.gadoworld.mathman.ThemeActivity: void red_light(android.view.View)
 com.gadoworld.mathman.ThemeActivity: void orange_dark(android.view.View)
 com.gadoworld.mathman.ThemeActivity: void orange_light(android.view.View)
 com.gadoworld.mathman.ThemeActivity: void purple(android.view.View)
+com.gadoworld.mathman.xCosActivity
+com.gadoworld.mathman.xCosActivity: xCosActivity()
+com.gadoworld.mathman.xCosActivity: void sin(android.view.View)
+com.gadoworld.mathman.xSinActivity
+com.gadoworld.mathman.xSinActivity: xSinActivity()
+com.gadoworld.mathman.xSinActivity: void sin(android.view.View)
+com.gadoworld.mathman.xTanActivity
+com.gadoworld.mathman.xTanActivity: xTanActivity()
+com.gadoworld.mathman.xTanActivity: void sin(android.view.View)
+org.achartengine.GraphicalView: org.achartengine.model.SeriesSelection getCurrentSeriesAndPoint()
+org.achartengine.GraphicalView: void setZoomRate(float)
+org.achartengine.GraphicalView: android.graphics.RectF getZoomRectangle()
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type[] values()
+org.achartengine.chart.BarChart$Type: org.achartengine.chart.BarChart$Type valueOf(java.lang.String)
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle[] values()
+org.achartengine.chart.PointStyle: org.achartengine.chart.PointStyle valueOf(java.lang.String)
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type[] values()
+org.achartengine.renderer.DialRenderer$Type: org.achartengine.renderer.DialRenderer$Type valueOf(java.lang.String)
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation[] values()
+org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation: org.achartengine.renderer.XYMultipleSeriesRenderer$Orientation valueOf(java.lang.String)
